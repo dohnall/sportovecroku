@@ -11,22 +11,9 @@
 |
 */
 
-$ips = [
-    '37.221.242.83',
-    '::1',
-];
-
-if(isset($_GET['before'])) {
+if(time() >= mktime(0, 0, 0, 11, 1, 2019) && time() < mktime(23, 0, 0, 11, 14, 2019)) {
     Route::get('/', 'VotesController@beforeIndex');
-} elseif(isset($_GET['after'])) {
-    Route::get('/', 'VotesController@afterIndex');
-} elseif(in_array(request()->ip(), $ips)) {
-    Route::get('/', 'VotesController@index');
-    Route::post('/', 'VotesController@store');
-    Route::get('/{hash}', 'VotesController@confirm')->where('hash', '[a-f0-9]{32}');
-} elseif(time() >= mktime(0, 0, 0, 11, 1, 2019) && time() < mktime(0, 0, 0, 11, 15, 2019)) {
-    Route::get('/', 'VotesController@beforeIndex');
-} elseif(time() >= mktime(0, 0, 0, 11, 15, 2019) && time() < mktime(0, 0, 0, 12, 11, 2019)) {
+} elseif(time() >= mktime(23, 0, 0, 11, 14, 2019) && time() < mktime(23, 0, 0, 12, 10, 2019)) {
     Route::get('/', 'VotesController@index');
     Route::post('/', 'VotesController@store');
     Route::get('/{hash}', 'VotesController@confirm')->where('hash', '[a-f0-9]{32}');
