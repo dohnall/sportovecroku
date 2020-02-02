@@ -11237,6 +11237,14 @@ section.group.group7 {
   background: url("/images/grafika_03.svg") no-repeat right bottom;
 }
 
+section.header.results {
+  padding-bottom: 90px;
+}
+
+section.header.results h1 {
+  margin-bottom: 100px;
+}
+
 section.header p {
   font-weight: 300;
   font-size: 24px;
@@ -11279,11 +11287,19 @@ section.group li {
   cursor: pointer;
 }
 
+section.group.results li {
+  cursor: default;
+}
+
 section.group li p {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
   margin: 5px 0 0 35px;
+}
+
+section.group.results li p {
+  margin: 5px 0 0 10px;
 }
 
 section.group li p strong {
@@ -11381,7 +11397,7 @@ section.group .row .radio label {
   margin-right: 10px;
 }
 
-section.group li:hover {
+section.group:not(.results) li:hover {
   box-shadow: none;
 }
 
@@ -11514,6 +11530,7 @@ section.footer img {
 
   section.header {
     background-size: 160px;
+    padding-bottom: 130px !important;
   }
 
   section.header .logo img {

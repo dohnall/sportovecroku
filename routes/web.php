@@ -17,6 +17,8 @@ if(time() >= mktime(0, 0, 0, 11, 1, 2019) && time() < mktime(23, 0, 0, 11, 14, 2
     Route::get('/', 'VotesController@index');
     Route::post('/', 'VotesController@store');
     Route::get('/{hash}', 'VotesController@confirm')->where('hash', '[a-f0-9]{32}');
-} else {
+} elseif(time() >= mktime(23, 0, 0, 12, 10, 2019) && time() < mktime(23, 0, 0, 2, 1, 2020)) {
     Route::get('/', 'VotesController@afterIndex');
+} else {
+    Route::get('/', 'VotesController@results');
 }

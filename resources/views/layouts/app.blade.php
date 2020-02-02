@@ -7,7 +7,9 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/lightbox.js') }}" defer></script>
     <!-- Styles -->
+    <link href="{{ asset('css/lightbox.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>

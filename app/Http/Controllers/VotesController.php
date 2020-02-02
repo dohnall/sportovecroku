@@ -190,6 +190,112 @@ class VotesController extends Controller
         ],
     ];
 
+    public static $results = [
+        1 => [
+            'name' => 'Sportovní tým nad 18 let',
+            'values' => [
+                1 => [
+                    'header' => '1. místo',
+                    'description' => '- SKBU Hostivař "Kata tým - muži"',
+                ],
+                2 => [
+                    'header' => '2. místo',
+                    'description' => '- HBC Hostivař "Muži"',
+                ],
+                3 => [
+                    'header' => '3. místo',
+                    'description' => '- Sportovní družstvo SDH Horní Měcholupy "Muži"',
+                ],
+            ],
+        ],
+        2 => [
+            'name' => 'Sportovní tým do 18 let',
+            'values' => [
+                1 => [
+                    'header' => '1. místo',
+                    'description' => '- SKBU Hostivař "Kata tým - dívky"',
+                ],
+                2 => [
+                    'header' => '2. místo',
+                    'description' => '- HBC Hostivař "Dorost"',
+                ],
+                3 => [
+                    'header' => '3. místo',
+                    'description' => '- HC Hostivař "Dorostenky"',
+                ],
+            ],
+        ],
+        3 => [
+            'name' => 'Jednotlivec nad 18 let',
+            'values' => [
+                1 => [
+                    'header' => '1. místo',
+                    'description' => '- Daniel Beneš',
+                ],
+                2 => [
+                    'header' => '2. místo',
+                    'description' => '- Jiří Vaniš ml.',
+                ],
+                3 => [
+                    'header' => '3. místo',
+                    'description' => '- Vladimír Sklenář',
+                ],
+            ],
+        ],
+        4 => [
+            'name' => 'Jednotlivec do 18 let',
+            'values' => [
+                1 => [
+                    'header' => '1. místo',
+                    'description' => '- Oliver Simon',
+                ],
+                2 => [
+                    'header' => '2. místo',
+                    'description' => '- Jan Čejka',
+                ],
+                3 => [
+                    'header' => '3. místo',
+                    'description' => '- Kateřina Aulická',
+                ],
+            ],
+        ],
+        5 => [
+            'name' => 'Trenér roku',
+            'values' => [
+                1 => [
+                    'header' => '1. místo',
+                    'description' => '- Karel Strnad',
+                ],
+            ],
+        ],
+    ];
+
+    public static $gallery = [
+        '19' => 'Karol Dobiaš, Antonín Eis,Antoním Panenka, Milan Wenzl a Ivan Grégr.',
+        '14' => 'První místo v kategorii Jednotlivec do 18 let - Oliver Simon, SKBU Hostivař, cenu předal Ivan Grégr, fotbalový rozhodčí.',
+        '10' => 'Sál KC Varta zaplnili nominovaní sportovci a hosté.',
+        '01' => 'Zpěvák Zbyněk Drda.',
+        '02' => 'Zpěvačka Naďa Válová potěšila svým vystoupením.',
+        '03' => 'Všichni jsou připraveni k předání ocenění v prvním ročníku Sportovce roku MČ Praha 15.',
+        '04' => 'Třetí místo v kategorii Sportovní tým nad 18 let – SDH Horní Měcholupy – muži, cenu předal Mgr. Aleš Cejnar, tajemník ÚMČ Praha 15.',
+        '05' => 'Třetí místo v kategorii Jednotlivec nad 18 let – Vladimír Sklenář, XCT sport Hospůdka Karolína, cenu předal Michal Fischer, místostarosta MČ Praha 15.',
+        '06' => 'Třetí místo v kategorii Jednotlivec do 18 let – Kateřina Aulická, SDH Horní Měcholupy, cenu předal Martin Kaucký, kreativní ředitel MooDesign s.r.o.',
+        '07' => 'Třetí místo Sportovní tým do 18 let – HC Hostivař dorostenky, cenu předal Viliam Sivek, výkonný ředitel Sivek Hotels.',
+        '08' => 'Trenér roku Karel Strnad SKBU Hostivař, cenu převzal Vladimír Limburský, vedoucí, cenu předala Lucie Prinzová, předsedkyně Výboru ZMČ Praha 15.',
+        '09' => 'Slavnostní fanfára v podání ZUŠ Hostivař.',
+        '11' => 'První místo v kategorii Sportovní tým nad 18 let, SKBU Hostivař Kata tým muži, cenu předal Milan Wenzl, starosta MČ Praha 15.',
+        '12' => 'První místo v kategorii Sportovní tým do 18 let – SKBU Hostivař Kata tým dívky, cenu předal Karol Dobiaš, fotbalový internacionál.',
+        '13' => 'První místo v kategorii Jednotlivec nad 18 let – Daniel Beneš, SKBU Hostivař, cenu předal Antonín Panenka, fotbalový internacionál.',
+        '15' => 'Napětí mezi nominovanými bylo znát.',
+        '16' => 'Moderátoři večera Marie Retková a Zdeněk Vrba.',
+        '17' => 'Mistři Evropy v juniorské kategorii, jak jinak než z SKBU Hostivař.',
+        '18' => 'Kata v podání mistrů Evropy juniorů, SKBU Hostivař.',
+        '20' => 'Druhé místo v kategorii Sportovní tým nad 18 let, HBC Hostivař – muži, cenu předala Mgr. Jitka Kolářová, místostarostka MČ Praha 15.',
+        '21' => 'Druhé místo v kategorii Sportovní tým do 18 let – HBC Hostivař dorost, cenu předala Mgr. Zuzana Herčíková, vedoucí ekonomického odboru ÚMČ Praha 15.',
+        '22' => 'Druhé místo v kategorii Jednotlivec nad 18 let – Jiří Vaniš ml, HBC Hostivař, cenu předala Jaroslava Šimonová, vedoucí odboru školství, ÚMČ Praha 15.',
+        '23' => 'Druhé místo v kategorii Jednotlivec do 18 let – Jan Čejka, HBC Hostivař, cenu předala Naďa Válová, zpěvačka.',
+    ];
+
     public function beforeIndex() {
         return view('beforeIndex');
     }
@@ -201,6 +307,12 @@ class VotesController extends Controller
 
     public function afterIndex() {
         return view('afterIndex');
+    }
+
+    public function results() {
+        $groups = self::$results;
+        $gallery = self::$gallery;
+        return view('results', compact(['groups', 'gallery']));
     }
 
     public function store() {
