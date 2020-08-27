@@ -15,6 +15,18 @@
 <body>
     <div class="container">
         @yield('content')
+        <section class="archive">
+            <h2><img src="/images/nadpis_archiv.svg" width="260" alt="Archiv" class="img-fluid"></h2>
+            <ul>
+                <li><a href="/archive/2019" @if(Request::is('archive/2019')) class="selected"@endif>2019</a></li>
+            </ul>
+        </section>
+        <section class="footer">
+            <img src="/images/logo_mc_praha_15.svg" alt="Logo MČ Praha 15">
+            <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
+            <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o.</p>
+            <p>„Všichni nominovaní jsou občany MČ Praha 15 nebo sportují ve sportovních klubech v MČ Praze 15 a s nominací vyjádřili svůj souhlas.“</p>
+        </section>
     </div>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152013930-1"></script>

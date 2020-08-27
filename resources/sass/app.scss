@@ -272,18 +272,21 @@ section.group li.selected .radio label {
 section.group .radio input[type="radio"] {
     display: none;
 }
+section.group .form {
+    margin-top: 50px;
+}
 
 section.form h2 {
     margin: 30px 0 50px 0;
     font-size: 32px;
     font-weight: 700;
 }
-section.form label {
+section label {
     margin-left: 20px;
     font-size: 16px;
     font-weight: 700;
 }
-section.form input.form-control {
+section input.form-control {
     background: $gray1 0% 0% no-repeat padding-box;
     box-shadow: 0px 6px 10px $gray2;
     padding: 0 20px 0 20px;
@@ -292,6 +295,10 @@ section.form input.form-control {
     border: none;
     color: $blue;
     font-size: 16px;
+    border-radius: 20px;
+}
+section.group .form input.form-control {
+    width: 100%;
 }
 section.form input#fname {
     border-radius: 20px 0 0 20px;
@@ -349,6 +356,29 @@ section.form .form-check.selected div::before {
 section.form .form-check label {
     margin-left: 40px;
     margin-top: -23px;
+}
+
+section.archive h2 {
+    margin: 150px 0 90px 0;
+}
+section.archive ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section.archive ul li {
+    float: left;
+    margin-right: 70px;
+}
+section.archive ul li a {
+    font-size: 32px;
+    text-decoration: none;
+}
+section.archive ul li a.selected {
+    font-weight: bold;
+}
+section.archive ul li a.selected, section.archive ul li a:hover {
+    color: #d80012;
 }
 
 section.footer {

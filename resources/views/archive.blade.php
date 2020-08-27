@@ -2,8 +2,8 @@
 
 @section('content')
 <section class="header results">
-    <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
-    <h1><img src="/images/text_vysledky.svg" alt="Výsledky hlasování" class="img-fluid" width="511"></h1>
+    <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
+    <h1><img src="/images/nadpis_vysledky_2019.svg" alt="Výsledky hlasování 2019" class="img-fluid"></h1>
     <p>
         Dne <strong>23. 1. 2020</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2019</strong><br>
         za účasti starosty, radních a zastupitelů Prahy 15.<br>

@@ -10,9 +10,4 @@
         Bližší informace najdete <a href="https://www.praha15.cz/" target="_blank">na stránkách Prahy 15</a>.
     </p>
 </section>
-<section class="footer">
-    <img src="/images/logo_mc_praha_15.svg" alt="Logo MČ Praha 15">
-    <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
-    <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o.</p>
-</section>
 @endsection

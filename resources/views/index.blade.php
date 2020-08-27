@@ -4,7 +4,7 @@
 <form action="" method="post" class="needs-validation" novalidate>
     @csrf
     <section class="header">
-        <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
+        <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
         <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
