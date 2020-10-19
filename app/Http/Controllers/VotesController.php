@@ -307,7 +307,8 @@ class VotesController extends Controller
 
     public function nomination() {
         $groups = self::$groups;
-        return view('nomination', compact(['groups']));
+        $archive = true;
+        return view('nomination', compact(['groups', 'archive']));
     }
 
     public function nominationStore() {
@@ -389,7 +390,8 @@ class VotesController extends Controller
 
     public function index() {
         $groups = self::$groups;
-        return view('index', compact(['groups']));
+        $archive = true;
+        return view('index', compact(['groups', 'archive']));
     }
 
     public function afterIndex() {
@@ -399,13 +401,15 @@ class VotesController extends Controller
     public function results() {
         $groups = self::$results[2019];
         $gallery = self::$gallery[2019];
-        return view('results', compact(['groups', 'gallery']));
+        $archive = true;
+        return view('results', compact(['groups', 'gallery', 'archive']));
     }
 
     public function archive($year) {
         $groups = self::$results[$year];
         $gallery = self::$gallery[$year];
-        return view('archive', compact(['groups', 'gallery', 'year']));
+        $archive = true;
+        return view('archive', compact(['groups', 'gallery', 'year', 'archive']));
     }
 
     public function store() {

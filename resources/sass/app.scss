@@ -22,6 +22,9 @@ html, body {
 .halfbold {
     font-weight: 500;
 }
+.bold {
+    font-weight: 700;
+}
 
 .invalid-feedback {
     font-size: 14px;
@@ -80,7 +83,7 @@ section.before .logo {
 }
 section.before ul {
     list-style: none;
-    margin: 20px 0;
+    margin: 20px 0 20px 0;
     padding: 0;
 }
 section.before li {
@@ -389,7 +392,7 @@ section.footer {
     padding-bottom: 0;
 }
 section.footer img {
-    margin: 90px 0;
+    margin: 50px 0 90px 0;
 }
 
 @media (min-width: 1200px) {
