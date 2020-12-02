@@ -8,7 +8,7 @@
         <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
-            hlasovat lze od <strong>15. listopadu do 10. prosince 2019</strong><br>
+            hlasovat lze od <strong>prosince do ledna 2021</strong><br>
             v níže uvedených kategoriích.
         </p>
         <p>
@@ -161,12 +161,6 @@
                 }, false);
             })();
         </script>
-    </section>
-    <section class="footer">
-        <img src="/images/logo_mc_praha_15.svg" alt="Logo MČ Praha 15">
-        <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
-        <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o.</p>
-        <p>„Všichni nominovaní jsou občany MČ Praha 15 nebo sportují ve sportovních klubech v MČ Praze 15 a s nominací vyjádřili svůj souhlas.“</p>
     </section>
 </form>
 @endsection
