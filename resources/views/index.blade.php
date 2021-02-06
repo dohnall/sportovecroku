@@ -8,7 +8,7 @@
         <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
-            hlasovat lze od <strong>prosince do ledna 2021</strong><br>
+            hlasovat lze od <strong>prosince do 15. ledna 2021</strong><br>
             v níže uvedených kategoriích.
         </p>
         <p>
@@ -83,7 +83,7 @@
                     <div></div>
                     <input class="form-check-input" type="checkbox" name="agree" value="1" id="agree" required @if(old('agree') == 1) checked @endif>
                     <label class="form-check-label" for="agree">
-                        Seznámil(a) jsem se s podmínkami zpracování osobních údajů a beru na vědomí, že odesláním hlasování bude zpracováváno jméno, příjmení, IP adresa a emailová adresa. Informace o zpracování osobních údajů jsou k dispozici <a href="https://www.praha15.cz/urad/odbory-uradu/kancelar-uradu-a-tajemnika/oddeleni-pravni-a-evidenci/narizeni_gdpr/" target="_blank">ZDE</a>.
+                        Seznámil(a) jsem se s podmínkami zpracování osobních údajů a beru na vědomí, že odesláním hlasování bude zpracováváno jméno, příjmení, IP adresa a emailová adresa. Informace o zpracování osobních údajů jsou k dispozici <a href="https://www.praha15.cz/ochrana-osobnich-udaju-gdpr-a-poverenec/ms-1397/p1=1397" target="_blank">ZDE</a>.
                     </label>
                 </div>
             </div>

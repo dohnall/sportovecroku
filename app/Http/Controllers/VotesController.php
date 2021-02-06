@@ -16,7 +16,7 @@ class VotesController extends Controller
             'name' => 'Sportovní tým nad 18 let',
             'values' => [
                 1 => [
-                    'header' => 'SK Hostivař "A Tým"',
+                    'header' => 'SK Hostivař "A tým"',
                     'description' => '<small>Fotbal</small>',
                 ],
                 2 => [
@@ -28,7 +28,7 @@ class VotesController extends Controller
                     'description' => '<small>Požární sport</small>',
                 ],
                 4 => [
-                    'header' => 'HC Hostivař - "ženy"',
+                    'header' => 'HC Hostivař "Ženy"',
                     'description' => '<small>Pozemní hokej</small>',
                 ],
             ],
@@ -49,7 +49,7 @@ class VotesController extends Controller
                     'description' => '<small>Fotbal</small>',
                 ],
                 4 => [
-                    'header' => 'HC Hostivař "Dorostenky""',
+                    'header' => 'HC Hostivař "Dorostenky"',
                     'description' => '<small>Pozemní hokej</small>',
                 ],
             ],
@@ -88,6 +88,10 @@ class VotesController extends Controller
                 8 => [
                     'header' => 'Lupoměský Roman',
                     'description' => '(TJ Sokol Na Křečku)<small>Tenis</small>',
+                ],
+                9 => [
+                    'header' => 'Růžička Josef',
+                    'description' => '(Rugby Klub Petrovice – Old boys)<small>Rugby</small>',
                 ],
             ],
         ],
@@ -134,6 +138,10 @@ class VotesController extends Controller
                     'header' => 'Stříbrská Zuzana',
                     'description' => '(TJ Sokol Petrovice - Mažoretky Bailar Praha)<small>Mažoretka - twirlerka</small>',
                 ],
+                11 => [
+                    'header' => 'Bitterman Pavel',
+                    'description' => '(Rugby Klub Petrovice)<small>Rugby</small>',
+                ],
             ],
         ],
         5 => [
@@ -175,6 +183,10 @@ class VotesController extends Controller
                 6 => [
                     'header' => 'Hlaváč Libor',
                     'description' => '(HC Hostivař)<small>Pozemní hokej</small>',
+                ],
+                7 => [
+                    'header' => 'Růžička Josef',
+                    'description' => '(Rugby Klub Petrovice)<small>Rugby</small>',
                 ],
             ],
         ],
@@ -260,6 +272,94 @@ class VotesController extends Controller
                 ],
             ],
         ],
+        2020 => [
+            1 => [
+                'name' => 'Sportovní tým nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- HC Hostivař "Ženy"',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Sportovní družstvo SDH Horní Měcholupy "Muži"',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- HBC Hostivař "A tým"',
+                    ],
+                ],
+            ],
+            2 => [
+                'name' => 'Sportovní tým do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- HC Hostivař "Dorostenky"',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- HBC Hostivař "Dorost"',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- SK Hostivař "2012 - Mladší přípravka"',
+                    ],
+                ],
+            ],
+            3 => [
+                'name' => 'Jednotlivec nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Hubínek Jiří',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Sklenář Vladimír',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Růžička Josef',
+                    ],
+                ],
+            ],
+            4 => [
+                'name' => 'Jednotlivec do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Šafaříková Kristýna',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Kolář Vít',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Omáčková Amálie',
+                    ],
+                ],
+            ],
+            5 => [
+                'name' => 'Senior 60+',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Vltavský Zdeněk',
+                    ],
+                ],
+            ],
+            6 => [
+                'name' => 'Trenér roku',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Hlaváč Libor',
+                    ],
+                ],
+            ],
+        ],
     ];
 
     public static $gallery = [
@@ -287,6 +387,9 @@ class VotesController extends Controller
             '21' => 'Druhé místo v kategorii Sportovní tým do 18 let – HBC Hostivař dorost, cenu předala Mgr. Zuzana Herčíková, vedoucí ekonomického odboru ÚMČ Praha 15.',
             '22' => 'Druhé místo v kategorii Jednotlivec nad 18 let – Jiří Vaniš ml, HBC Hostivař, cenu předala Jaroslava Šimonová, vedoucí odboru školství, ÚMČ Praha 15.',
             '23' => 'Druhé místo v kategorii Jednotlivec do 18 let – Jan Čejka, HBC Hostivař, cenu předala Naďa Válová, zpěvačka.',
+        ],
+        2020 => [
+
         ],
     ];
 
@@ -388,8 +491,8 @@ class VotesController extends Controller
     }
 
     public function results() {
-        $groups = self::$results[2019];
-        $gallery = self::$gallery[2019];
+        $groups = self::$results[2020];
+        $gallery = self::$gallery[2020];
         $archive = true;
         return view('results', compact(['groups', 'gallery', 'archive']));
     }

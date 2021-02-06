@@ -11,6 +11,9 @@
 |
 */
 
+
+use Illuminate\Support\Facades\Route;
+
 echo '<!-- '.date('Y-m-d H:i:s').' -->';
 /*
 if(time() >= mktime(23, 0, 0, 10, 31, 2020) && time() < mktime(23, 0, 0, 11, 30, 2020)) {
@@ -29,8 +32,5 @@ if(time() >= mktime(23, 0, 0, 10, 31, 2020) && time() < mktime(23, 0, 0, 11, 30,
 }
 */
 
-Route::get('/', 'VotesController@index');
-Route::post('/', 'VotesController@store');
-Route::get('/{hash}', 'VotesController@confirm')->where('hash', '[a-f0-9]{32}');
-
-Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019)');
+Route::get('/', 'VotesController@results');
+Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019|2020)');

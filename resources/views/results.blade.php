@@ -5,7 +5,7 @@
     <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
     <h1><img src="/images/text_vysledky.svg" alt="Výsledky hlasování" class="img-fluid" width="511"></h1>
     <p>
-        Dne <strong>23. 1. 2020</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2019</strong><br>
+        Dne <strong>4. 2. 2021</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2020</strong><br>
         za účasti starosty, radních a zastupitelů Prahy 15.<br>
         Ceny předaly sportovní legendy Antonín Panenka a Karol Dobiáš.
     </p>
@@ -28,8 +28,13 @@
 @endforeach
 <section class="header pt-2 pb-5">
     <p class="message text-center mb-5 pb-5"><strong>Děkujeme všem hlasujícím a nominovaným sportovcům a srdečně gratulujeme vítězům.<br>Těšíme se na další ročník.</strong></p>
+    @if($gallery)
     <h2><img src="/images/text_fotogalerie.svg" alt="Fotogalerie předávání cen" class="img-fluid" width="528"></h2>
+    @else
+    <p class="mb-5 pb-5">&nbsp;</p>
+    @endif
 </section>
+@if($gallery)
 <section class="gallery pt-5 pb-5">
     <div class="row">
 @foreach($gallery as $image => $description)
@@ -41,4 +46,5 @@
     </div>
     <p class="mt-4 text-center"><a href="#" id="showGallery">Více fotografií najdete zde v galerii nebo po kliknutí na jakoukoli fotografii.</a></p>
 </section>
+@endif
 @endsection

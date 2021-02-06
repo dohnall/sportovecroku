@@ -227,7 +227,7 @@
         <div class="form-row mb-4">
             <div class="col-sm-12">
                 <strong>
-                    Po dobu trvání ankety dávám souhlas s <a href="https://www.praha15.cz/urad/odbory-uradu/kancelar-uradu-a-tajemnika/oddeleni-pravni-a-evidenci/narizeni_gdpr/" target="_blank">GDPR</a>.
+                    Po dobu trvání ankety dávám souhlas s <a href="https://www.praha15.cz/ochrana-osobnich-udaju-gdpr-a-poverenec/ms-1397/p1=1397" target="_blank">GDPR</a>.
                 </strong>
             </div>
         </div>
