@@ -5,9 +5,8 @@
     <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
     <h1><img src="/images/text_vysledky.svg" alt="Výsledky hlasování" class="img-fluid" width="511"></h1>
     <p>
-        Dne <strong>4. 2. 2021</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2020</strong><br>
-        za účasti starosty, radních a zastupitelů Prahy 15.<br>
-        Ceny předaly sportovní legendy Antonín Panenka a Karol Dobiáš.
+        Dne <strong>4. 2. 2021</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2020</strong>.<br>
+        <strong>Vzhledem k situaci předala ceny individuálně<br>předsedkyně Výboru volnočasových aktivit a vnějších vztahů.</strong>
     </p>
 </section>
 @foreach($groups as $groupId => $group)
@@ -39,7 +38,7 @@
     <div class="row">
 @foreach($gallery as $image => $description)
         <div class="col-md-4 @if($loop->iteration > 3) d-none @endif">
-            <a href="/images/gallery/{{ $image }}.jpg" data-lightbox="gallery" data-title="{{ $description }}"><img src="/images/gallery/{{ $image }}.jpg" alt="" class="img-fluid"></a>
+            <a href="/images/gallery/2020/{{ $image }}.jpg" data-lightbox="gallery" data-title="{{ $description }}"><img src="/images/gallery/2020/{{ $image }}.jpg" alt="" class="img-fluid"></a>
             <p class="mt-3">{{ $description }}</p>
         </div>
 @endforeach
