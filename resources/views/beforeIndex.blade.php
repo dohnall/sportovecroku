@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="before text-center border-bottom-0">
-        <div class="logo"><img src="/images/logo_sportovec_roku.svg" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
+        <div class="logo"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
         <p>
             <strong>Právě probíhá zpracování nominací.</strong><br>
             Hlasovat budete moci online na tomto webu<br>od prosince 2020 do ledna 2021, v kategoriích:

@@ -278,15 +278,15 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- HC Hostivař "Ženy"',
+                        'description' => '- HC Hostivař "Ženy" (Pozemní hokej)',
                     ],
                     2 => [
                         'header' => '2. místo',
-                        'description' => '- Sportovní družstvo SDH Horní Měcholupy "Muži"',
+                        'description' => '- Sportovní družstvo SDH Horní Měcholupy "Muži" (Požární sport)',
                     ],
                     3 => [
                         'header' => '3. místo',
-                        'description' => '- HBC Hostivař "A tým"',
+                        'description' => '- HBC Hostivař "A tým" (Hokejbal)',
                     ],
                 ],
             ],
@@ -295,15 +295,15 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- HC Hostivař "Dorostenky"',
+                        'description' => '- HC Hostivař "Dorostenky" (Pozemní hokej)',
                     ],
                     2 => [
                         'header' => '2. místo',
-                        'description' => '- HBC Hostivař "Dorost"',
+                        'description' => '- HBC Hostivař "Dorost" (Hokejbal)',
                     ],
                     3 => [
                         'header' => '3. místo',
-                        'description' => '- SK Hostivař "2012 - Mladší přípravka"',
+                        'description' => '- SK Hostivař "2012 - Mladší přípravka" (Fotbal)',
                     ],
                 ],
             ],
@@ -312,15 +312,15 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- Hubínek Jiří',
+                        'description' => '- Hubínek Jiří (Horská kola - sjezd)',
                     ],
                     2 => [
                         'header' => '2. místo',
-                        'description' => '- Sklenář Vladimír',
+                        'description' => '- Sklenář Vladimír (Terénní triatlon)',
                     ],
                     3 => [
                         'header' => '3. místo',
-                        'description' => '- Růžička Josef',
+                        'description' => '- Růžička Josef (Rugby)',
                     ],
                 ],
             ],
@@ -329,15 +329,15 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- Šafaříková Kristýna',
+                        'description' => '- Šafaříková Kristýna (Pozemní hokej)',
                     ],
                     2 => [
                         'header' => '2. místo',
-                        'description' => '- Kolář Vít',
+                        'description' => '- Kolář Vít (Zápas - volný styl)',
                     ],
                     3 => [
                         'header' => '3. místo',
-                        'description' => '- Omáčková Amálie',
+                        'description' => '- Omáčková Amálie (Judo)',
                     ],
                 ],
             ],
@@ -346,7 +346,7 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- Vltavský Zdeněk',
+                        'description' => '- Vltavský Zdeněk (Tenis)',
                     ],
                 ],
             ],
@@ -355,7 +355,7 @@ class VotesController extends Controller
                 'values' => [
                     1 => [
                         'header' => '1. místo',
-                        'description' => '- Hlaváč Libor',
+                        'description' => '- Hlaváč Libor (Pozemní hokej)',
                     ],
                 ],
             ],
@@ -428,8 +428,9 @@ class VotesController extends Controller
         ];
         if(!request()->input('group.1', 0)) {
             $validate['name.1'] = 'required';
-            $validate['membership.1'] = 'required';
+            //$validate['membership.1'] = 'required';
         }
+        /*
         if(!request()->input('group.2', 0)) {
             $validate['name.2'] = 'required';
             $validate['membership.2'] = 'required';
@@ -452,6 +453,7 @@ class VotesController extends Controller
             $validate['year.5'] = 'required';
             $validate['membership.5'] = 'required';
         }
+        */
         if(!request()->input('group.6', 0)) {
             $validate['fname.6'] = 'required';
             $validate['lname.6'] = 'required';

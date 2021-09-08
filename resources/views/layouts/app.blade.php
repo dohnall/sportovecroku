@@ -26,7 +26,8 @@
         @endif
         <section class="footer">
             <img src="/images/logo_mc_praha_15.svg" alt="Logo MČ Praha 15">
-            <p>Do hlasování byli zařazeni pouze kluby a jednotlivci, u kterých bylo možno ověřit, že mají sídlo nebo trvalý pobyt v MČ Praha 15.</p>
+            <!--p>Do hlasování byli zařazeni pouze kluby a jednotlivci, u kterých bylo možno ověřit, že mají sídlo nebo trvalý pobyt v MČ Praha 15.</p-->
+            <p>Do nominace byla zařazena pouze sportovní odvětví a trenéři u nichž bylo možné ověřit, že provozují svou činnost v klubu, který je v MČ Praha 15.</p>
             <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
             <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o.</p>
         </section>

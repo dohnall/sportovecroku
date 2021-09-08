@@ -4,31 +4,14 @@
     <list default="true" id="a09ee442-1e64-496e-8342-475105afb064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/archive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/archive.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/beforeIndex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/beforeIndex.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/nomination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nomination.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +217,10 @@
       <workItem from="1612632230667" duration="3056000" />
       <workItem from="1612726245725" duration="1506000" />
       <workItem from="1612792940942" duration="821000" />
-      <workItem from="1612799071468" duration="1796000" />
+      <workItem from="1612799071468" duration="1849000" />
+      <workItem from="1612865924112" duration="670000" />
+      <workItem from="1612980730351" duration="175000" />
+      <workItem from="1631123262380" duration="2336000" />
     </task>
     <servers />
   </component>

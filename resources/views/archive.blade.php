@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="header results">
-    <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
+    <div class="logo clearfix"><a href="/"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></a></div>
     @if($year == 2019)
     <h1><img src="/images/nadpis_vysledky_2019.svg" alt="Výsledky hlasování 2019" class="img-fluid"></h1>
     <p>
