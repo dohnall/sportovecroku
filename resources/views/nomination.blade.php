@@ -10,10 +10,6 @@
             Městská část Praha 15, Výbor volnočasových aktivit a vnějších vztahů,<br>
             vyhlásila anketu Sportovec roku MČ Praha 15.
         </p>
-        <p>
-            Nominovaný musí být v MČ Praha 15 nebo být členem klubu<br>
-            působícího v MČ Praha 15.
-        </p>
         <p><a href="/files/sportovec_roku_2021_nominacni_listek.pdf" target="_blank">Nominační lístek ve formátu PDF ke stažení.</a></p>
     </section>
     <section class="group group1 clearfix">
@@ -29,7 +25,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="name1" @error('name.1') class="red" @enderror>Uveďte sportovní aktivitu, kterou provozuje sportovní klub, který je v Praze 15:</label>
+                <label for="name1" @error('name.1') class="red" @enderror>Sportovní aktivita, kterou provozuje sportovní klub se sídlem v Praze 15:</label>
                 <input type="text" name="name[1]" id="name1" value="{{ old('name.1') }}" class="form-control @error('name.1') is-invalid @enderror">
             </div>
         </div>
@@ -57,7 +53,7 @@
         </div>
         <div class="row form">
             <div class="col-md-4">
-                <label for="membership6" @error('membership.6') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
+                <label for="membership6" @error('membership.6') class="red" @enderror>Sportovní klub, kde trenér působí:</label>
                 <input type="text" name="membership[6]" id="membership6" value="{{ old('membership.6') }}" class="form-control @error('membership.6') is-invalid @enderror">
             </div>
             <div class="col-md-4">

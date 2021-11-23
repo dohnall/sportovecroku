@@ -104,7 +104,7 @@
             <p class="message text-center red"><strong>Tento hlas již byl potvrzen.</strong></p>
         @endif
         @if(session('message') == 'thanks')
-            <p class="message text-center"><strong>Děkujeme za hlasování v anketě Sportovec roku 2019.</strong><br>Právě jsme Vám odeslali potvrzující e-mail, který prosím potvrďte.<br>Bez potvrzení nebude hlasování platné.</p>
+            <p class="message text-center"><strong>Děkujeme za hlasování v anketě Sportovec roku 2021.</strong><br>Právě jsme Vám odeslali potvrzující e-mail, který prosím potvrďte.<br>Bez potvrzení nebude hlasování platné.</p>
         @endif
         <script>
             // Example starter JavaScript for disabling form submissions if there are invalid fields

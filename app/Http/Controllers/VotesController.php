@@ -13,26 +13,51 @@ class VotesController extends Controller
 
     public static $groups = [
         1 => [
-            'name' => 'Sportovní tým nad 18 let',
+            'name' => 'Nejoblíbenější sport Prahy 15',
             'values' => [
                 1 => [
-                    'header' => 'SK Hostivař "A tým"',
-                    'description' => '<small>Fotbal</small>',
+                    'header' => 'Florbal',
+                    'description' => '',
                 ],
                 2 => [
-                    'header' => 'HBC Hostivař "A tým"',
-                    'description' => '<small>Hokejbal</small>',
+                    'header' => 'Fotbal',
+                    'description' => '',
                 ],
                 3 => [
-                    'header' => 'Sportovní družstvo SDH Horní Měcholupy "Muži"',
-                    'description' => '<small>Požární sport</small>',
+                    'header' => 'Hokejbal',
+                    'description' => '',
                 ],
                 4 => [
-                    'header' => 'HC Hostivař "Ženy"',
-                    'description' => '<small>Pozemní hokej</small>',
+                    'header' => 'Karate',
+                    'description' => '',
+                ],
+                5 => [
+                    'header' => 'Moderní gymnastika',
+                    'description' => '',
+                ],
+                6 => [
+                    'header' => 'Pozemní hokej',
+                    'description' => '',
+                ],
+                7 => [
+                    'header' => 'Taekwondo',
+                    'description' => '',
+                ],
+                8 => [
+                    'header' => 'Tenis',
+                    'description' => '',
+                ],
+                9 => [
+                    'header' => 'Terenní cyklistika',
+                    'description' => '',
+                ],
+                10 => [
+                    'header' => 'Vodní záchranná služba',
+                    'description' => '',
                 ],
             ],
         ],
+/*
         2 => [
             'name' => 'Sportovní tým do 18 let',
             'values' => [
@@ -157,36 +182,53 @@ class VotesController extends Controller
                 ],
             ],
         ],
+*/
         6 => [
             'name' => 'Trenér roku',
             'values' => [
                 1 => [
-                    'header' => 'Novák Ondřej',
-                    'description' => '(HBC Hostivař)<small>Hokejbal</small>',
+                    'header' => 'Blanka Chuchlerová',
+                    'description' => '(TJ ZŠ Hostivař, juniorky)<small>Moderní gymnastika</small>',
                 ],
                 2 => [
-                    'header' => 'Grepl Tomáš',
-                    'description' => '(HBC Hostivař)<small>Hokejbal</small>',
+                    'header' => 'Libor Hlaváč',
+                    'description' => '(HC Hostivař, dorostenky)<small>Pozemní hokej</small>',
                 ],
                 3 => [
-                    'header' => 'Došek Luboš',
-                    'description' => '(Celebrity boxing place)<small>Box</small>',
+                    'header' => 'Petra Brabcová',
+                    'description' => '(HC Hostivař, minibenjamínci, benjamínci U6+U8)<small>Pozemní hokej</small>',
                 ],
                 4 => [
-                    'header' => 'Vaniš Jiří st.',
-                    'description' => '(HBC Hostivař)<small>Hokejbal</small>',
+                    'header' => 'Lucie Gabrielová',
+                    'description' => '(TJ Vodní stavby Praha, svěřenkyně Tereza Pupíková)<small>Moderní gymnastika</small>',
                 ],
                 5 => [
-                    'header' => 'Penc Jan',
-                    'description' => '(SK Hostivař)<small>Fotbal</small>',
+                    'header' => 'Dominika Kasnerová',
+                    'description' => '(HC Hostivař, minbenjamínci, benjamínci U6+U8)<small>Pozemní hokej</small>',
                 ],
                 6 => [
-                    'header' => 'Hlaváč Libor',
-                    'description' => '(HC Hostivař)<small>Pozemní hokej</small>',
+                    'header' => 'Jiří Vaniš',
+                    'description' => '(HBC Hostivař, mladší žáci)<small>Hokejbal</small>',
                 ],
                 7 => [
-                    'header' => 'Růžička Josef',
-                    'description' => '(Rugby Klub Petrovice)<small>Rugby</small>',
+                    'header' => 'Petr Behenský',
+                    'description' => '(ATHOS Atletika Hostivař, dorost a starší)<small>Atletika</small>',
+                ],
+                8 => [
+                    'header' => 'Ctibor Coufal',
+                    'description' => '(HBC Hostivař, přípravka, svěřenec Jakub Veselý)<small>Hokejbal</small>',
+                ],
+                9 => [
+                    'header' => 'Marek Škácha',
+                    'description' => '(Vodní záchranná služba Praha 15, do 14 let)<small>Vodní záchranná služba</small>',
+                ],
+                10 => [
+                    'header' => 'Ondřej Novák',
+                    'description' => '(HBC Hostivař, minipřípravka, starší žáci)<small>Hokejbal</small>',
+                ],
+                11 => [
+                    'header' => 'Lee Youn Jae',
+                    'description' => '(TAEHAN Praha, trenér národní reprezentace České republiky)<small>Taekwondo</small>',
                 ],
             ],
         ],
@@ -529,10 +571,10 @@ class VotesController extends Controller
             'lname' => 'required',
             'email' => ['required', 'email', 'unique:votes'],
             'group.1' => 'required',
-            'group.2' => 'required',
-            'group.3' => 'required',
-            'group.4' => 'required',
-            'group.5' => 'required',
+            //'group.2' => 'required',
+            //'group.3' => 'required',
+            //'group.4' => 'required',
+            //'group.5' => 'required',
             'group.6' => 'required',
             'agree' => 'required',
         ]);
@@ -544,10 +586,10 @@ class VotesController extends Controller
             'lname' => $data['lname'],
             'email' => $data['email'],
             'group1' => $data['group'][1],
-            'group2' => $data['group'][2],
-            'group3' => $data['group'][3],
-            'group4' => $data['group'][4],
-            'group5' => $data['group'][5],
+            //'group2' => $data['group'][2],
+            //'group3' => $data['group'][3],
+            //'group4' => $data['group'][4],
+            //'group5' => $data['group'][5],
             'group6' => $data['group'][6],
             'hash' => $hash,
             'ip' => request()->ip(),
