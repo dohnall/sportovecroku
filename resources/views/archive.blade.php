@@ -16,6 +16,13 @@
         Dne <strong>4. 2. 2021</strong> byly vyhlášeny výsledky v anketě <strong>Sportovec roku 2020</strong>.<br>
         <strong>Vzhledem k situaci předala ceny individuálně<br>předsedkyně Výboru volnočasových aktivit a vnějších vztahů.</strong>
     </p>
+    @elseif($year == 2021)
+        <h1><img src="/images/nadpis_vysledky_2021.svg" style="max-width:806px;" alt="Výsledky hlasování 2021" class="img-fluid"></h1>
+        <p>
+            Dne <strong>2. února 2022</strong> byla v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předána trofej vítězce v kategorii <strong>Trenér roku</strong>.<br>
+            Trenérkou roku se stala <strong>Petra Brabcová z HC Hostivař.</strong>
+        </p>
+        <p>Byl také vyhlášen <strong>nejoblíbenější sport</strong> Prahy 15,<br>kterým se podle hlasování stal <strong>pozemní hokej</strong>.</p>
     @endif
 </section>
 @foreach($groups as $groupId => $group)

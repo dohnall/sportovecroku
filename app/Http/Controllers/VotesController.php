@@ -215,7 +215,7 @@ class VotesController extends Controller
                     'description' => '(ATHOS Atletika Hostivař, dorost a starší)<small>Atletika</small>',
                 ],
                 8 => [
-                    'header' => 'Ctibor Coufal',
+                    'header' => 'Borek Coufal',
                     'description' => '(HBC Hostivař, přípravka, svěřenec Jakub Veselý)<small>Hokejbal</small>',
                 ],
                 9 => [
@@ -402,6 +402,46 @@ class VotesController extends Controller
                 ],
             ],
         ],
+        2021 => [
+            1 => [
+                'name' => 'Nejoblíbenější sport',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Pozemní hokej',
+                    ],
+/*
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Hokejbal',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Moderní gymnastika',
+                    ],
+*/
+                ],
+            ],
+            2 => [
+                'name' => 'Trenér roku',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Petra Brabcová (Pozemní hokej)',
+                    ],
+/*
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Jiří Vaniš (Hokejbal)',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Blanka Chuchlerová (Moderní gymnastika)',
+                    ],
+*/
+                ],
+            ],
+        ],
     ];
 
     public static $gallery = [
@@ -449,6 +489,9 @@ class VotesController extends Controller
             '16' => '3. místo v kategorii Tým do 18 let - Mladší přípravka 2012 (SK Hostivař) fotbal.',
             '17' => '1. místo v kategorii Tým nad 18 let - Ženy (HC Hostivař) pozemní hokej.',
             '18' => '2.místo v kategorii Sportovní tým nad 18 - Muži(Sportovní družstvo SDH Horní Měcholupy) požární sport.',
+        ],
+        2021 => [
+            '01' => 'Petra Brabcová (Pozemní hokej)',
         ],
     ];
 
@@ -552,8 +595,8 @@ class VotesController extends Controller
     }
 
     public function results() {
-        $groups = self::$results[2020];
-        $gallery = self::$gallery[2020];
+        $groups = self::$results[2021];
+        $gallery = self::$gallery[2021];
         $archive = true;
         return view('results', compact(['groups', 'gallery', 'archive']));
     }

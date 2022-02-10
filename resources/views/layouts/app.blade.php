@@ -19,6 +19,7 @@
         <section class="archive">
             <h2><img src="/images/nadpis_archiv.svg" width="260" alt="Archiv" class="img-fluid"></h2>
             <ul>
+                <li><a href="/archive/2021" @if(Request::is('archive/2021')) class="selected"@endif>2021</a></li>
                 <li><a href="/archive/2020" @if(Request::is('archive/2020')) class="selected"@endif>2020</a></li>
                 <li><a href="/archive/2019" @if(Request::is('archive/2019')) class="selected"@endif>2019</a></li>
             </ul>

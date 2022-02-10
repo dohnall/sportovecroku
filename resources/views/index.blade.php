@@ -8,7 +8,7 @@
         <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
-            hlasovat lze od <strong>prosince do 15. ledna 2021</strong><br>
+            hlasovat lze od <strong>26. listopadu 2021 do 14. ledna 2022</strong><br>
             v níže uvedených kategoriích.
         </p>
         <p>

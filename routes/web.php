@@ -35,10 +35,8 @@ if(isset($_GET['nomination'])) {
 }
 */
 
-Route::get('/', 'VotesController@afterIndex');
-/*
-Route::get('/', 'VotesController@index');
-Route::post('/', 'VotesController@store');
-Route::get('/{hash}', 'VotesController@confirm')->where('hash', '[a-f0-9]{32}');
-*/
-Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019|2020)');
+//Route::get('/', 'VotesController@afterIndex');
+
+Route::get('/', 'VotesController@results');
+
+Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019|2020|2021)');
