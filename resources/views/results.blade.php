@@ -5,10 +5,10 @@
     <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
     <h1><img src="/images/text_vysledky.svg" alt="Výsledky hlasování" class="img-fluid" width="511"></h1>
     <p>
-        Dne <strong>2. února 2022</strong> byla v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předána trofej vítězce v kategorii <strong>Trenér roku</strong>.<br>
-        Trenérkou roku se stala <strong>Petra Brabcová z HC Hostivař.</strong>
+        V <strong>květnu 2023</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
     </p>
-    <p>Byl také vyhlášen <strong>nejoblíbenější sport</strong> Prahy 15,<br>kterým se podle hlasování stal <strong>pozemní hokej</strong>.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 </section>
 @foreach($groups as $groupId => $group)
     <section class="group group{{ $groupId }} results clearfix">

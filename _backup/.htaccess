@@ -1,0 +1,24 @@
+# htaccess rules for subdomains and aliases
+# to create new subdomain, create a folder www/subdom/(subdomain name)
+# to create web for alias, create a folder www/domains/(whole domain name)
+
+# htaccess pravidla pro subdomeny a samostatne weby aliasu
+# pro vytvoreni subdomeny vytvorte adresar www/subdom/(nazev subdomeny)
+# pro vytvoreni webu pro alias vytvorte adresar www/domains/(cely domenovy nazev)
+# dalsi info a priklady: https://kb.wedos.com/cs/webhosting/htaccess/htaccess-na-webhostingu
+
+RewriteEngine On
+
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#RewriteCond %{HTTP_HOST} ^sportovecpraha15\.cz [nc]
+#RewriteRule (.*) https://www.sportovecpraha15.cz/$1 [R=301,L]
+
+RewriteRule ^css\/(.*) /public/css/$1 [QSA,L]
+RewriteRule ^js\/(.*) /public/js/$1 [QSA,L]
+RewriteRule ^images\/(.*) /public/images/$1 [QSA,L]
+RewriteRule ^uploads\/(.*) /public/uploads/$1 [QSA,L]
+RewriteRule ^favicon.ico /public/favicon.ico [QSA,L]
+RewriteRule (.*) /public/index.php [QSA,L]

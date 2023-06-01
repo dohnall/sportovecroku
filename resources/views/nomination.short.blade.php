@@ -10,15 +10,12 @@
             Městská část Praha 15, Výbor volnočasových aktivit a vnějších vztahů,<br>
             vyhlásila anketu Sportovec roku MČ Praha 15.
         </p>
-        <p>
-            Nominovaný musí být v MČ Praha 15 nebo být členem klubu<br>
-            působícího v MČ Praha 15.
-        </p>
+        <p><a href="/files/sportovec_roku_2021_nominacni_listek.pdf" target="_blank">Nominační lístek ve formátu PDF ke stažení.</a></p>
     </section>
     <section class="group group1 clearfix">
         <div class="row">
             <div class="col-md-8">
-                <h2>Sportovní tým nad 18 let</h2>
+                <h2>Nejoblíbenější sport Prahy 15</h2>
             </div>
             <div class="col-md-4 text-right radio @if(old('group.1') === "1") selected @endif">
                 <label class="" for="group_1_1">v této kategorii nenominuji</label>
@@ -27,131 +24,9 @@
             </div>
         </div>
         <div class="row form">
-            <div class="col-md-4">
-                <label for="name1" @error('name.1') class="red" @enderror>Název týmu:</label>
+            <div class="col-md-8">
+                <label for="name1" @error('name.1') class="red" @enderror>Sportovní aktivita, kterou provozuje sportovní klub se sídlem v Praze 15:</label>
                 <input type="text" name="name[1]" id="name1" value="{{ old('name.1') }}" class="form-control @error('name.1') is-invalid @enderror">
-            </div>
-            <div class="col-md-4">
-                <label for="membership1" @error('membership.1') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
-                <input type="text" name="membership[1]" id="membership1" value="{{ old('membership.1') }}" class="form-control @error('membership.1') is-invalid @enderror">
-            </div>
-        </div>
-    </section>
-    <section class="group group2 clearfix">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Sportovní tým do 18 let</h2>
-            </div>
-            <div class="col-md-4 text-right radio @if(old('group.2') === "1") selected @endif">
-                <label class="" for="group_2_1">v této kategorii nenominuji</label>
-                <input type="radio" id="group_2_1" name="group[2]" value="1" class="form-check-inline" @if(old('group.2') === "1") checked @endif>
-                <div></div>
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-4">
-                <label for="name2" @error('name.2') class="red" @enderror>Název týmu:</label>
-                <input type="text" name="name[2]" id="name2" value="{{ old('name.2') }}" class="form-control @error('name.2') is-invalid @enderror">
-            </div>
-            <div class="col-md-4">
-                <label for="membership2" @error('membership.2') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
-                <input type="text" name="membership[2]" id="membership2" value="{{ old('membership.2') }}" class="form-control @error('membership.2') is-invalid @enderror">
-            </div>
-        </div>
-    </section>
-    <section class="group group3 clearfix">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Jednotlivec nad 18 let</h2>
-            </div>
-            <div class="col-md-4 text-right radio @if(old('group.3') === "1") selected @endif">
-                <label class="" for="group_3_1">v této kategorii nenominuji</label>
-                <input type="radio" id="group_3_1" name="group[3]" value="1" class="form-check-inline" @if(old('group.3') === "1") checked @endif>
-                <div></div>
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-3">
-                <label for="fname3" @error('fname.3') class="red" @enderror>Jméno:</label>
-                <input type="text" name="fname[3]" id="fname3" value="{{ old('fname.3') }}" class="form-control @error('fname.3') is-invalid @enderror">
-            </div>
-            <div class="col-md-3">
-                <label for="lname3" @error('lname.3') class="red" @enderror>Příjmení:</label>
-                <input type="text" name="lname[3]" id="lname3" value="{{ old('lname.3') }}" class="form-control @error('lname.3') is-invalid @enderror">
-            </div>
-            <div class="col-md-2">
-                <label for="year3" @error('year.3') class="red" @enderror>Rok narození:</label>
-                <input type="text" name="year[3]" id="year3" value="{{ old('year.3') }}" class="form-control @error('year.3') is-invalid @enderror">
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-8">
-                <label for="membership3" @error('membership.3') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
-                <input type="text" name="membership[3]" id="membership3" value="{{ old('membership.3') }}" class="form-control @error('membership.3') is-invalid @enderror">
-            </div>
-        </div>
-    </section>
-    <section class="group group4 clearfix">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Jednotlivec do 18 let</h2>
-            </div>
-            <div class="col-md-4 text-right radio @if(old('group.4') === "1") selected @endif">
-                <label class="" for="group_4_1">v této kategorii nenominuji</label>
-                <input type="radio" id="group_4_1" name="group[4]" value="1" class="form-check-inline" @if(old('group.4') === "1") checked @endif>
-                <div></div>
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-3">
-                <label for="fname4" @error('fname.4') class="red" @enderror>Jméno:</label>
-                <input type="text" name="fname[4]" id="fname4" value="{{ old('fname.4') }}" class="form-control @error('fname.4') is-invalid @enderror">
-            </div>
-            <div class="col-md-3">
-                <label for="lname4" @error('lname.4') class="red" @enderror>Příjmení:</label>
-                <input type="text" name="lname[4]" id="lname4" value="{{ old('lname.4') }}" class="form-control @error('lname.4') is-invalid @enderror">
-            </div>
-            <div class="col-md-2">
-                <label for="year4" @error('year.4') class="red" @enderror>Rok narození:</label>
-                <input type="text" name="year[4]" id="year4" value="{{ old('year.4') }}" class="form-control @error('year.4') is-invalid @enderror">
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-8">
-                <label for="membership4" @error('membership.4') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
-                <input type="text" name="membership[4]" id="membership4" value="{{ old('membership.4') }}" class="form-control @error('membership.4') is-invalid @enderror">
-            </div>
-        </div>
-    </section>
-    <section class="group group5 clearfix">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Senior 60+</h2>
-            </div>
-            <div class="col-md-4 text-right radio @if(old('group.5') === "1") selected @endif">
-                <label class="" for="group_5_1">v této kategorii nenominuji</label>
-                <input type="radio" id="group_5_1" name="group[5]" value="1" class="form-check-inline" @if(old('group.5') === "1") checked @endif>
-                <div></div>
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-3">
-                <label for="fname5" @error('fname.5') class="red" @enderror>Jméno:</label>
-                <input type="text" name="fname[5]" id="fname5" value="{{ old('fname.5') }}" class="form-control @error('fname.5') is-invalid @enderror">
-            </div>
-            <div class="col-md-3">
-                <label for="lname5" @error('lname.5') class="red" @enderror>Příjmení:</label>
-                <input type="text" name="lname[5]" id="lname5" value="{{ old('lname.5') }}" class="form-control @error('lname.5') is-invalid @enderror">
-            </div>
-            <div class="col-md-2">
-                <label for="year5" @error('year.5') class="red" @enderror>Rok narození:</label>
-                <input type="text" name="year[5]" id="year5" value="{{ old('year.5') }}" class="form-control @error('year.5') is-invalid @enderror">
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-md-8">
-                <label for="membership5" @error('membership.5') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
-                <input type="text" name="membership[5]" id="membership5" value="{{ old('membership.5') }}" class="form-control @error('membership.5') is-invalid @enderror">
             </div>
         </div>
     </section>
@@ -178,7 +53,7 @@
         </div>
         <div class="row form">
             <div class="col-md-4">
-                <label for="membership6" @error('membership.6') class="red" @enderror>Členství v TJ/SK, sportovní odvětví:</label>
+                <label for="membership6" @error('membership.6') class="red" @enderror>Sportovní klub, kde trenér působí:</label>
                 <input type="text" name="membership[6]" id="membership6" value="{{ old('membership.6') }}" class="form-control @error('membership.6') is-invalid @enderror">
             </div>
             <div class="col-md-4">
