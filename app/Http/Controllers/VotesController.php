@@ -5,10 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ValidationMail;
 use App\Nomination;
 use App\Votes;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Validator;
 
 class VotesController extends Controller
 {
@@ -518,7 +515,34 @@ class VotesController extends Controller
             '01' => 'Petra Brabcová (Pozemní hokej)',
         ],
         2022 => [
-
+            '01' => '',
+            '02' => '',
+            '03' => '',
+            '04' => '',
+            '05' => '',
+            '06' => '',
+            '07' => '',
+            '08' => '',
+            '09' => '',
+            '10' => '',
+            '11' => '',
+            '12' => '',
+            '13' => '',
+            '14' => '',
+            '15' => '',
+            '16' => '',
+            '17' => '',
+            '18' => '',
+            '19' => '',
+            '20' => '',
+            '21' => '',
+            '22' => '',
+            '23' => '',
+            '24' => '',
+            '25' => '',
+            '26' => '',
+            '27' => '',
+            '28' => '',
         ],
     ];
 
@@ -644,10 +668,11 @@ class VotesController extends Controller
     }
 
     public function results() {
-        $groups = self::$results[2022];
-        $gallery = self::$gallery[2022];
+        $year = 2022;
+        $groups = self::$results[$year];
+        $gallery = self::$gallery[$year];
         $archive = true;
-        return view('results', compact(['groups', 'gallery', 'archive']));
+        return view('results', compact(['groups', 'gallery', 'archive', 'year']));
     }
 
     public function archive($year) {

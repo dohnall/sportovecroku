@@ -39,7 +39,7 @@
     <div class="row">
 @foreach($gallery as $image => $description)
         <div class="col-md-4 @if($loop->iteration > 3) d-none @endif">
-            <a href="/images/gallery/2021/{{ $image }}.jpg" data-lightbox="gallery" data-title="{{ $description }}"><img src="/images/gallery/2021/{{ $image }}.jpg" alt="" class="img-fluid"></a>
+            <a href="/images/gallery/{{ $year }}/{{ $image }}.jpg" data-lightbox="gallery" data-title="{{ $description }}"><img src="/images/gallery/{{ $year }}/{{ $image }}.jpg" alt="" class="img-fluid"></a>
             <p class="mt-3">{{ $description }}</p>
         </div>
 @endforeach
