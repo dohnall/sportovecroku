@@ -23,6 +23,11 @@
             Trenérkou roku se stala <strong>Petra Brabcová z HC Hostivař.</strong>
         </p>
         <p>Byl také vyhlášen <strong>nejoblíbenější sport</strong> Prahy 15,<br>kterým se podle hlasování stal <strong>pozemní hokej</strong>.</p>
+    @elseif($year == 2022)
+        <h1><img src="/images/nadpis_vysledky_2022.svg" style="max-width:806px;" alt="Výsledky hlasování 2022" class="img-fluid"></h1>
+        <p style="margin-bottom: 150px;">
+            V <strong>květnu 2023</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
+        </p>
     @endif
 </section>
 @foreach($groups as $groupId => $group)

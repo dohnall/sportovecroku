@@ -6,7 +6,7 @@
     <h1><img src="/images/nadpis_konec_hlasovani.svg" alt="Konec hlasování" class="img-fluid"></h1>
     <p>
         Hlasování v anketě Sportovec roku MČ Praha 15 bylo ukončeno.<br>
-        Vyhodnocení ankety bude zveřejněno na této stránce v lednu 2022.<br>
+        Vyhodnocení ankety bude zveřejněno na této stránce v březnu 2024.<br>
         Bližší informace najdete <a href="https://www.praha15.cz/" target="_blank">na stránkách Prahy 15</a>.
     </p>
 </section>

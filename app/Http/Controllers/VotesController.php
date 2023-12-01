@@ -593,6 +593,7 @@ class VotesController extends Controller
             $validate['membership.5'] = 'required';
             $validate['success.5'] = 'required';
         }
+        /*
         if(!request()->input('group.6', 0)) {
             $validate['fname.6'] = 'required';
             $validate['lname.6'] = 'required';
@@ -607,7 +608,7 @@ class VotesController extends Controller
             $validate['team.7'] = 'required';
             $validate['success.7'] = 'required';
         }
-
+        */
         $data = request()->validate($validate);
 
         Nomination::create([
@@ -640,6 +641,7 @@ class VotesController extends Controller
             'year5' => request()->input('year.5'),
             'membership5' => request()->input('membership.5'),
             'success5' => request()->input('success.5'),
+/*
             'group6' => request()->input('group.6', 0),
             'fname6' => request()->input('fname.6'),
             'lname6' => request()->input('lname.6'),
@@ -652,6 +654,7 @@ class VotesController extends Controller
             'membership7' => request()->input('membership.7'),
             'team7' => request()->input('team.7'),
             'success7' => request()->input('success.7'),
+*/
         ]);
 
         return redirect('/')->with('message', 'thanks');

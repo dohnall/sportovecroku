@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09ee442-1e64-496e-8342-475105afb064" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sportovecroku.local.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sportovecroku.local.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/files/pravidla.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/files/pravidla.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/archive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/archive.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/nomination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nomination.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,10 +119,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1Svk4io6XAfzI6W1F12E7YTn921" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -269,6 +272,7 @@
       <workItem from="1689390991654" duration="163000" />
       <workItem from="1689411084636" duration="1355000" />
       <workItem from="1701111510605" duration="105000" />
+      <workItem from="1701414062904" duration="2088000" />
     </task>
     <servers />
   </component>
