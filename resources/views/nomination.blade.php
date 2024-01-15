@@ -8,10 +8,11 @@
         <h1><img src="/images/nominacni_listek_nadpis.svg" alt="Nominační lístek" class="img-fluid"></h1>
         <p>
             Městská část Praha 15, Výbor volnočasových aktivit a vnějších vztahů,<br>
-            vyhlásila anketu Sportovec roku MČ Praha 15.
+            vyhlásila anketu Sportovec roku MČ Praha 15.<br>
+            Nominace bude ukončena 31. 12. 2023.
         </p>
         <p>
-            Nominovaný musí být v MČ Praha 15 nebo být členem klubu<br>
+            Nominovaný musí být z MČ Praha 15 nebo být členem klubu<br>
             působícího v MČ Praha 15.
         </p>
     </section>

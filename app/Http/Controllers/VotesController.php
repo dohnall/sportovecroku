@@ -15,20 +15,24 @@ class VotesController extends Controller
             'name' => 'Sportovní tým nad 18 let',
             'values' => [
                 1 => [
-                    'header' => 'Taneční klub Calipso',
-                    'description' => '<small>Country tanec</small><br>Úspěchy: 1.místo v kategorii tradiční country tance na Mistrovství České republiky v country tancích a cloggingu, 1. místo Mistrovství České republiky v kategorie Line dance dueta',
+                    'header' => 'SK Hostivař',
+                    'description' => '<small>Fotbal</small><br>Úspěchy: 3 místo ve fotbalové lize',
                 ],
                 2 => [
-                    'header' => 'HBC Hostivař - muži A',
-                    'description' => '<small>Hokejbal</small><br>Úspěchy: Premiérový postup do play-off hokejbalové extraligy České republiky',
+                    'header' => 'Taneční klub Calipso',
+                    'description' => '<small>Country tanec</small><br>Úspěchy: Mistrovství ČR a SR - 1. místo, MISTR ČR a SR tradiční country malá skupina, 2. místo tradiční country, 2. m. line dance, 2. m. pásmo, 3. m. acapella',
                 ],
                 3 => [
-                    'header' => 'Gymnastika Vodní Stavby',
-                    'description' => '<small>Gymnastika</small><br>Úspěchy: 3. místo Mistrovství České republiky',
+                    'header' => 'Golf Club Hostivař - extraligový tým mužů',
+                    'description' => '<small>Golf</small><br>Úspěchy: 5. místo - Mistrovství ČR družstev mužů (Extraliga)',
                 ],
                 4 => [
-                    'header' => 'Rugby klub Petrovice',
-                    'description' => '<small>Rugby</small><br>Úspěchy: 3. místo 1. Liga Ragby XV a 6. místo Mistrovství České republiky 7s',
+                    'header' => 'SKBU Hostivař - tým kata muži',
+                    'description' => '<small>Karate</small><br>Úspěchy: 1. místo Mistrovství Evropy JKA tým kata muži, 1. místo Mistrovství ČR JKA tým kata muži',
+                ],
+                5 => [
+                    'header' => 'HBC Hostivař muži A',
+                    'description' => '<small>Hokejbal</small><br>Úspěchy: Vítěz Českého poháru 2023 a podzimní mistr sezony 2023/2024 (1. místo v tabulce po polovině základní části Extraligy)',
                 ],
             ],
         ],
@@ -36,20 +40,24 @@ class VotesController extends Controller
             'name' => 'Sportovní tým do 18 let',
             'values' => [
                 1 => [
-                    'header' => 'HBC Hostivař - junioři',
-                    'description' => '<small>Hokejbal</small><br>Úspěchy: Mistři České republiky pro sezónu 2021/2022',
+                    'header' => 'SK Hostivař - ml. přípravka',
+                    'description' => '<small>Fotbal</small><br>Úspěchy: 3 místo ve fotbalové lize',
                 ],
                 2 => [
-                    'header' => 'Hana Lee/Michaela Baštecká/Julie Šlesingerová (Taehan Praha)',
-                    'description' => '<small>Taekwondo</small><br>Úspěchy: 13. místo Mistrovství světa v taekwondo WT poomsae – Gyoang, Jižní Korea 2022 ',
+                    'header' => 'Taneční klub Calipso',
+                    'description' => '<small>Country tanec</small><br>Úspěchy: MČR do 18ti let - 2.místo Line Duet, 2. místo Line skupiny, 3. místo tradiční country',
                 ],
                 3 => [
-                    'header' => 'Rugby klub Petrovice U16',
-                    'description' => '<small>Rugby</small><br>Úspěchy: 3. místo v celostátní lize Rugby XV; 3. místo v mistrovství České republiky Rugby 7\'s',
+                    'header' => 'Golf Club Hostivař - smíšené družstvo do 14 let',
+                    'description' => '<small>Rugby</small><br>Úspěchy: 6. místo - Mistrovství ČR družstev mládeže do 14 let',
                 ],
                 4 => [
-                    'header' => 'Tomáš Markov/Michaela Baštecká (Taehan Praha)',
-                    'description' => '<small>Taekwondo</small><br>Úspěchy: 1. místo Czech Open 2022',
+                    'header' => 'HOCKEY CLUB HOSTIVAŘ',
+                    'description' => '<small>Pozemní hokej</small><br>Úspěchy: R. 2023 / 2. místo ČR pozemní hokej / 2. místo ČR halový pozemní hokej / 2. místo - mezinárodní turnaj BEE HAPPY - Itálie, Riva del Garda',
+                ],
+                5 => [
+                    'header' => 'SK Triumf Praha - společná skladba dvojic a trojic nadějí mladších',
+                    'description' => '<small>Moderní gymnastika</small><br>Úspěchy: 3.místo MČR Havířov, 1. místo Cena města Chomutova, 2.místo Mezinárodní závod Memoriál Hermy Jochovej Bratislava, 1. místo La Pirouette Mountain Cup',
                 ],
             ],
         ],
@@ -57,16 +65,20 @@ class VotesController extends Controller
             'name' => 'Jednotlivec nad 18 let',
             'values' => [
                 1 => [
-                    'header' => 'Hubínek Jiří',
-                    'description' => '<small>Cyklistika</small><br>Úspěchy: 1. místo Mistrovství České republiky v downhill (kategorie masters)',
+                    'header' => 'Jan Kripner',
+                    'description' => '<small>TJ Pankrác (Praha) a SC Svitávka, Sálová cyklistika - kolová a krasojízda</small><br>Úspěchy: 3.místo Mistrovství Evropy U23 v kolové, 2.místo MČR ELITE kolová, 3. místo MČR U23 kolová,4.a5.místo Světový pohár, 2.místo MČR krasojízda dvojice',
                 ],
                 2 => [
-                    'header' => 'Čejka Jan',
-                    'description' => '(HBC Hostivař, hokejbal)<small>Holejbal</small><br>Úspěchy: 2. místo na Mistrovství světa v hokejbalu mužů. 1. místo Mistrovství České republiky v hokejbalu juniorů',
+                    'header' => 'Daniel Zámečník',
+                    'description' => '<small>HBC Hostivař, hokejbal</small><br>Úspěchy: Juniorský mistr světa v kategorii do 18 let',
                 ],
                 3 => [
-                    'header' => 'Hájková Judita',
-                    'description' => '(Taehan Praha)<small>Taekwondo</small><br>Úspěchy: 3. místo MČR 2022 -2. vicemistryně ČR pro rok 2022 v kategorii seniorky do 30 A, 3. místo Albania President´s Cup 2022 – turnaje G - kategorie senior female under 30',
+                    'header' => 'Magdalena Žůček',
+                    'description' => '<small>SKBU Hostivař, karate JKA</small><br>Úspěchy: 1. místo Mistrovství světa WSKA kumite juniorky, 2. místo Mistrovství Evropy JKA kumite juniorky, 3. místo Mistrovství světa WSKA kumite ženy',
+                ],
+                4 => [
+                    'header' => 'Jan Čejka',
+                    'description' => '<small>HBC Hostivař, hokejbal</small><br>Úspěchy: vítěz kanadského bodování a nejlepší střelec extraligy za sezonu 2022/2023, aktuálně první v kanadském bodování a nejlepší střelec za podzimní část sezony 2023/2024, mistr světa kategorie U23, obecně považovaný za nejlepšího hokejbalistu v ČR',
                 ],
             ],
         ],
@@ -74,94 +86,81 @@ class VotesController extends Controller
             'name' => 'Jednotlivec do 18 let',
             'values' => [
                 1 => [
-                    'header' => 'Maredová Lucie',
-                    'description' => '(Atletika Jižní město)<small>Atletika</small><br>Úspěchy: Skok vysoký 154cm - 2x Přebornice Prahy, 2. místo neoficiální Mistrovství Evropy, reprezentace Prahy na Olympiádě dětí a mládeže, sportovní chůze 2km - nejlepší výkon v České republice',
+                    'header' => 'Wanda Pencáková',
+                    'description' => '<small>Doplnejch Powerlifting, silový trojboj</small><br>Úspěchy: 5. na MS (dřep), 7. na MS (trojboj) a 7. na ME (trojboj) mladších juniorek do 57 kg v silovém trojboji',
                 ],
                 2 => [
-                    'header' => 'Lee Irena',
-                    'description' => '(Taehan Praha)<small>Taekwondo</small><br>Úspěchy: 1. místo MČR 2022 - mistryně ČR pro rok 2022 v kategorii kadetky A, 1. místo - vítězka Taekwondo extraligy poomsae za rok 2022 – kategorie kadetky, 8. místo ve skupině – World Taekwondo Poomsae Championship 2022 – Goyang, Jižní Korea – cadet female',
+                    'header' => 'Jan Semrád',
+                    'description' => '<small>Taneční klub Calipso, clogging a country tance</small><br>Úspěchy: MČR do 18 ti let - Mistr ČR, 1. místo clogging sólo, 2. místo clogging freestyle',
                 ],
                 3 => [
-                    'header' => 'Omáčková Amálie',
-                    'description' => '(Judo Academy)<small>Judo</small><br>Úspěchy: ČP Ostrava 3.misto, Dánsko 3.misto, Maďarsko 2.misto, Slovinsko 1.misto, ČP Bydžov 2. Místo, ČP Jablonec 2.misto, Polsko 1. a 2.misto, přebory Prahy 1. a 2.misto, Přebor ČR 3.misto',
+                    'header' => 'Zuzana Rudová',
+                    'description' => '<small>SKBU Hostivař, kickbox</small><br>Úspěchy: 1.misto mistrovství CR-kicklight, 1.misto KosaCup-kicklight, 3.misto Czech open-kicklight, 1.misto Czech fighting série-kicklight + K1, atd.',
                 ],
                 4 => [
-                    'header' => 'Lee Hana',
-                    'description' => '(Taehan Praha)<small>Taekwondo</small><br>Úspěchy: 1. místo MČR 2022 - mistryně ČR pro rok 2022 v kategorii juniorky A,  1. místo - vítězka Taekwondo extraligy poomsae za rok 2022 – kategorie juniorky A, E6513. místo v týmech junior female na Mistrovství světa 2022 v Jižní Koreji',
+                    'header' => 'Vojtěch Soukup',
+                    'description' => '<small>HBC Hostivař, hokejbal</small><br>Úspěchy: Juniorský mistr světa v kategorii do 16 let',
                 ],
                 5 => [
-                    'header' => 'Karásková Linda',
-                    'description' => '(JNS Cheerleading)<small>Sportovní cheerleanding</small><br>Úspěchy: 1. místo Mistrovství světa Orlando 2022, 1.místo group stunty německý Bottrop-otevřené ME, 1.místo mistrovství České republiky, 1.místo mistrovství České republiky malé divize',
+                    'header' => 'Petr Lehner',
+                    'description' => '<small>HBC Hostivař, hokejbal</small><br>Úspěchy: kapitán hokejbalových mistrů světa do 18 let a nejproduktivnější junior seniorské extraligy za podzimní část sezony 2023/2024',
                 ],
                 6 => [
-                    'header' => 'Bittermann Jaroslav',
-                    'description' => '(Rugby Petrovice)<small>Rugby</small><br>Úspěchy: 3. místo Mistrovství České republiky',
+                    'header' => 'Sofie Chramostová',
+                    'description' => '<small>Golf Club Hostivař</small><br>Úspěchy: 3. místo v mládežnickém žebříčku České Golfové Federace v kategorii mladších žákyň',
                 ],
                 7 => [
-                    'header' => 'Jeřábek Tomáš Josef',
-                    'description' => '(HBC Hostivař)<small>Hokejbal</small><br>Úspěchy: Nejlepší hráč  turnaj Světlá nad Sázavou',
+                    'header' => 'Alžběta Kozlíková',
+                    'description' => '<small>TJ Horní Měcholupy, oddíl karate</small><br>Úspěchy: 3. místo, kumite dorostenky -47kg, Mistrovství ČR mládeže karate Karlovy Vary, 2. 12. 2023',
                 ],
                 8 => [
-                    'header' => 'Semerád Jan',
-                    'description' => '(Taneční klub Calipso)<small>Clogging a country tanec</small><br>Úspěchy: Mistr ČR, 1. místo kategorie B2S - clogging sólo starší, 2. místo B1S clogging freestyle, 4. místo B5S - clogging acapella na Mistrovství ČR v country',
+                    'header' => 'Adam Šteiner',
+                    'description' => '<small>HOCKEY CLUB HOSTIVAŘ - pozemní hokej</small><br>Úspěchy: Hráč HCH dorostenci, reprezentace ČR - U18 + U21 /  ME Wales U18 - Swansea - 1. místo + postup ČR do divize A',
                 ],
                 9 => [
-                    'header' => 'Stříbrská Zuzana',
-                    'description' => '(TJ Sokol Petrovice)<small>Mažoretky a twirling</small><br>Úspěchy: 3.misto Mistrovství české republiky 2 baron, 3.místo MČR flag, 7.misto MČR baron, 4.misto MS flag, 5.misto MS baton,6.misto MS 2bat, TWIRLING 1.misto NTP 2bat + další',
+                    'header' => 'Jiří Mikula',
+                    'description' => '<small>SKBU Hostivař, karate JKA</small><br>Úspěchy: 1. místo Mistrovství Světa WSKA kumite tým kadeti, 1. místo Mistrovství ČR JKA kumite junioři',
                 ],
                 10 => [
-                    'header' => 'Šimonek Ondřej',
-                    'description' => '(Vodní Záchranná Služba ČČK Praha 15, pobočný spolek)<small>Vodní záchranná služba</small><br>Úspěchy: 1. místo Mistrovství světa - disciplína Line Throw, 1. místo Mistrovství republiky VZS v plážových disciplínách, 4. místo Mistrovství republiky VZS v bazénových disciplínách',
+                    'header' => 'Amálie Omáčková',
+                    'description' => '<small>Judo Academy Praha</small><br>Úspěchy: Budapest cup - 2., Apolon open- 2., ČP Nový Bydžov - 2., ČP Jablonec - 1., Polsko, Opole - 3., Přebor Prahy - 1., MČR družstev 3., MČR jednotlivci 1.',
                 ],
                 11 => [
-                    'header' => 'Markov Tomáš',
-                    'description' => '(Taehan Praha)<small>Taekwondo</small><br>Úspěchy: 1. místo MČR 2022 – mistr ČR pro rok 2022 v kategorii junioři A, 1. místo – vítěz Taekwondo extraligy poomsae za rok 2022 – kategorie junior A, 7. místo European Open Poomsae 2022 – junior male A',
-                ],
-                12 => [
-                    'header' => 'Volf Richard',
-                    'description' => '(TK Sparta Praha, taneční sport)<small>Tanec</small><br>Úspěchy: Člen reprezentace ČR v tanečním sportu, II. vícemistr ČR v tanečním sportu, Reprezentant Hl. m. Prahy na OH mládeže ',
+                    'header' => 'Jan Šilhavý',
+                    'description' => '<small>Dragon fight gym, kickbox</small><br>Úspěchy: 1. místo Mistrovství ČR Praha lightcontact, 2. místo Mistrovství ČR Praha kicklight, 1. místo German open Německo kicklight, 1. místo German open Německo lightcontact, 2. místo Bregenz open Rakousko kicklight, 1. místo Kosa cup Praha kicklight, 1. místo Národní pohár Praha kicklight, 1. místo Czech fighting series Písek kicklight, 1. místo Czech fighting series Písek lightcontact, 1. místo Liga mládeže Praha kicklight, 2. místo Liga mládeže Praha lightcontact, 2. místo Czech fighting series Chomutov lightcontact',
                 ],
             ],
         ],
         5 => [
-            'name' => 'Trenér roku kolektivních sportů',
+            'name' => 'Trenér roku',
             'values' => [
                 1 => [
-                    'header' => 'Kemr Antonín',
-                    'description' => '(HC Hostivař)',
+                    'header' => 'Jan Penc',
+                    'description' => '<small>SK Hostivař, fotbal</small><br>Úspěchy: 3 místo ve fotbalové lize',
                 ],
                 2 => [
-                    'header' => 'Brabcová Petra',
-                    'description' => '(HC Hostivař)',
+                    'header' => 'Jakub Žák',
+                    'description' => '<small>TK Calipso, country tance a clogging</small><br>Úspěchy: Mistrovství ČR a SR - 1. m, MISTR ČR a SR tradiční country, 2. m.tradiční country, 2. m. line dance, 2. m. pásmo, 3. m. acapella MČR do 18ti - 2.m. 2x',
                 ],
                 3 => [
-                    'header' => 'Žák Jakub',
-                    'description' => '(Taneční klub Calipso)',
+                    'header' => 'Jan Hrsina',
+                    'description' => '<small>SKBU Hostivař, kickbox</small><br>Úspěchy: Dovedl starší žákyni k několika zlatým medailím',
                 ],
                 4 => [
-                    'header' => 'Gabrielová Lucie',
-                    'description' => '(TJ Gymnastika Vodní stavby - Vajány)',
+                    'header' => 'František Rozhon',
+                    'description' => '<small>HOCKEY CLUB HOSTIVAŘ - pozemní hokej</small><br>Úspěchy: 1. místo tým ČR - ME Wales U18 - Swansea  + postup ČR do divize A',
                 ],
                 5 => [
-                    'header' => 'Grepl Tomáš',
-                    'description' => '(HBC Hostivař)',
+                    'header' => 'Lenka Hyblerová Oulehlová',
+                    'description' => '<small>SK Triumf Praha, moderní gymnastika</small><br>Úspěchy: E. Bubeníčková Přebornice Prahy, D. Dieva 3.místo Pirueta Cup Chorvatsko, J. Matoušková Přebornice Prahy, juniorské týmy dvojic 2.a 3. místo Přebor P.',
                 ],
-            ],
-        ],
-        6 => [
-            'name' => 'Trenér roku individuálních sportů',
-            'values' => [
-                1 => [
-                    'header' => 'Václav Duda',
-                    'description' => '(TK Horní Měcholupy)',
+                6 => [
+                    'header' => 'Ondřej Novák',
+                    'description' => '<small>HBC Hostivař, hokejbal</small><br>Úspěchy: šéftrenér mládeže HBC Hostivař, která patří mezi absolutní špičku ČR - na juniorském MS v Liberci 2023 v kategoriích U16, U18, U20 a U23 měl klub celkem 16 zástupců. Všichni prošli postupně trenérským vedením Ondřeje Nováka',
                 ],
-                2 => [
-                    'header' => 'David Sirový',
-                    'description' => '(HPZ Karate)',
-                ],
-                3 => [
-                    'header' => 'Youjae Lee',
-                    'description' => '(Taehan Praha)',
+                7 => [
+                    'header' => 'Michal Strnad',
+                    'description' => '<small>Dragon fight gym</small><br>Úspěchy: na mistrovství ČR vybojovali závodníci Dragon fight gymu - 3x zlato, 2x stříbro, 3x bronz; v roce 2023 vybojovali závodníci Dragon fight gymu 140 zápasů s bilancí 83 výher a 57 proher',
                 ],
             ],
         ],
@@ -589,8 +588,8 @@ class VotesController extends Controller
         if(!request()->input('group.5', 0)) {
             $validate['fname.5'] = 'required';
             $validate['lname.5'] = 'required';
-            $validate['year.5'] = 'required';
             $validate['membership.5'] = 'required';
+            $validate['team.5'] = 'required';
             $validate['success.5'] = 'required';
         }
         /*
@@ -695,7 +694,7 @@ class VotesController extends Controller
             'group.3' => 'required',
             'group.4' => 'required',
             'group.5' => 'required',
-            'group.6' => 'required',
+            //'group.6' => 'required',
             'agree' => 'required',
         ]);
 
@@ -710,7 +709,7 @@ class VotesController extends Controller
             'group3' => $data['group'][3],
             'group4' => $data['group'][4],
             'group5' => $data['group'][5],
-            'group6' => $data['group'][6],
+            //'group6' => $data['group'][6],
             'hash' => $hash,
             'ip' => request()->ip(),
             'ipcheck' => session()->getId(),

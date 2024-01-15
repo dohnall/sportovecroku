@@ -8,7 +8,7 @@
         <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
-            hlasovat lze od <strong>6. do 31. března 2023</strong><br>
+            hlasovat lze od <strong>15. ledna do 29. února 2024</strong><br>
             v níže uvedených kategoriích.
         </p>
         <p>
@@ -104,7 +104,7 @@
             <p class="message text-center red"><strong>Tento hlas již byl potvrzen.</strong></p>
         @endif
         @if(session('message') == 'thanks')
-            <p class="message text-center"><strong>Děkujeme za hlasování v anketě Sportovec roku 2022.</strong><br>Právě jsme Vám odeslali potvrzující e-mail, který prosím potvrďte.<br>Bez potvrzení nebude hlasování platné.</p>
+            <p class="message text-center"><strong>Děkujeme za hlasování v anketě Sportovec roku 2023.</strong><br>Právě jsme Vám odeslali potvrzující e-mail, který prosím potvrďte.<br>Bez potvrzení nebude hlasování platné.</p>
         @endif
         <script>
             // Example starter JavaScript for disabling form submissions if there are invalid fields
