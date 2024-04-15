@@ -11,6 +11,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/lightbox.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -31,7 +32,7 @@
             <!--p>Do hlasování byli zařazeni pouze kluby a jednotlivci, u kterých bylo možno ověřit, že mají sídlo nebo trvalý pobyt v MČ Praha 15.</p-->
             <p>Do nominace byla zařazena pouze sportovní odvětví a trenéři u nichž bylo možné ověřit, že provozují svou činnost v klubu, který je v MČ Praha 15.</p>
             <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
-            <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o.</p>
+            <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o., +420 725 303 633, <a href="mailto:produkce@moodesign.cz">produkce@moodesign.cz</a>.</p>
             <p><a href="/files/pravidla.pdf" target="_blank">Úplná pravidla ankety naleznete na tomto odkazu.</a></p>
         </section>
     </div>

@@ -52,7 +52,7 @@ class VotesController extends Controller
                     'description' => '<small>Rugby</small><br>Úspěchy: 6. místo - Mistrovství ČR družstev mládeže do 14 let',
                 ],
                 4 => [
-                    'header' => 'HOCKEY CLUB HOSTIVAŘ',
+                    'header' => 'HOCKEY CLUB HOSTIVAŘ - družstvo starších žáků',
                     'description' => '<small>Pozemní hokej</small><br>Úspěchy: R. 2023 / 2. místo ČR pozemní hokej / 2. místo ČR halový pozemní hokej / 2. místo - mezinárodní turnaj BEE HAPPY - Itálie, Riva del Garda',
                 ],
                 5 => [
@@ -87,7 +87,7 @@ class VotesController extends Controller
             'values' => [
                 1 => [
                     'header' => 'Wanda Pencáková',
-                    'description' => '<small>Doplnejch Powerlifting, silový trojboj</small><br>Úspěchy: 5. na MS (dřep), 7. na MS (trojboj) a 7. na ME (trojboj) mladších juniorek do 57 kg v silovém trojboji',
+                    'description' => '<small>Doplnejch Powerlifting, silový trojboj</small><br>Úspěchy: 5. na MS (dřep), 7. na MS (trojboj) a 7. na ME (trojboj) mladších juniorek do 57 kg v silovém trojboji, 5× mistryně ČR 2023 v silovém trojboji mladších juniorek (absolutní pořadí, kategorie do 57 kg – celkově, dřep, benčpres, tah)',
                 ],
                 2 => [
                     'header' => 'Jan Semrád',
