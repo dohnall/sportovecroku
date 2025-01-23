@@ -20,6 +20,7 @@
         <section class="archive">
             <h2><img src="/images/nadpis_archiv.svg" width="260" alt="Archiv" class="img-fluid"></h2>
             <ul>
+                <li><a href="/archive/2023" @if(Request::is('archive/2023')) class="selected"@endif>2023</a></li>
                 <li><a href="/archive/2022" @if(Request::is('archive/2022')) class="selected"@endif>2022</a></li>
                 <li><a href="/archive/2021" @if(Request::is('archive/2021')) class="selected"@endif>2021</a></li>
                 <li><a href="/archive/2020" @if(Request::is('archive/2020')) class="selected"@endif>2020</a></li>
@@ -33,7 +34,7 @@
             <p>Do nominace byla zařazena pouze sportovní odvětví a trenéři u nichž bylo možné ověřit, že provozují svou činnost v klubu, který je v MČ Praha 15.</p>
             <p>Pořadatelem ankety Sportovec roku je MČ Praha 15.</p>
             <p>Technickou část ankety Sportovec roku zajišťuje společnost MOO Design s.r.o., +420 725 303 633, <a href="mailto:produkce@moodesign.cz">produkce@moodesign.cz</a>.</p>
-            <p><a href="/files/pravidla.pdf" target="_blank">Úplná pravidla ankety naleznete na tomto odkazu.</a></p>
+            <p><a href="/files/pravidla_2024.pdf" target="_blank">Úplná pravidla ankety naleznete na tomto odkazu.</a></p>
         </section>
     </div>
     <!-- Global site tag (gtag.js) - Google Analytics -->

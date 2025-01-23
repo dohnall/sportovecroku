@@ -462,6 +462,172 @@ class VotesController extends Controller
                 ],
             ],
         ],
+        2023 => [
+            1 => [
+                'name' => 'Sportovní tým nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- HBC Hostivař muži A (hokejbal)',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Taneční klub Calipso (country tanec)',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- SKBU Hostivař – tým kata muži (karate)',
+                    ],
+                ],
+            ],
+            2 => [
+                'name' => 'Sportovní tým do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Taneční klub Calipso (country tanec)',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- SK Triumf Praha – společná skladba dvojic a trojic nadějí mladších (moderní gymnastika)',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- HOCKEY CLUB HOSTIVAŘ – družstvo starších žáků (pozemní hokej)',
+                    ],
+                ],
+            ],
+            3 => [
+                'name' => 'Jednotlivec nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Magdalena Žůček (karate JKA)',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Jan Čejka (hokejbal)',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Jan Kripner (sálová cyklistika - kolová a krasojízda)',
+                    ],
+                ],
+            ],
+            4 => [
+                'name' => 'Jednotlivec do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Jan Semrád (clogging a country tance)',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Amálie Omáčková (judo)',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Jan Šilhavý (kickbox)',
+                    ],
+                ],
+            ],
+            5 => [
+                'name' => 'Trenér roku',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Jakub Žák (TK Calipso)',
+                    ],
+                ],
+            ],
+        ],
+        2024 => [
+            1 => [
+                'name' => 'Sportovní tým nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Kata team muži -  SKBU Hostivař, karate',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- A tým - HBC Hostivař',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Country tance a clogging - Taneční klub Calipso',
+                    ],
+                ],
+            ],
+            2 => [
+                'name' => 'Sportovní tým do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Tým mladší žáci – Hockey Club Hostivař',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Společná skladba v MG, naděje nejmladší - TJ ZŠ Hostivař Praha, moderní gymnastika',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Country tance a clogging - Taneční club Calipso',
+                    ],
+                ],
+            ],
+            3 => [
+                'name' => 'Jednotlivec nad 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Magdalena Anne Žůček – SKBU Hostivař',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Jan Čejka – HBC Hostivař',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Sára Štěpánová - Penta gym Praha, Brazilské jiu-jitsu',
+                    ],
+                ],
+            ],
+            4 => [
+                'name' => 'Jednotlivec do 18 let',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Jiří Mikula – SKBU Hostivař',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- Lenka Hurníková – SKBU Hostivař',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Adam Duda – TK Horní Měcholupy',
+                    ],
+                ],
+            ],
+            5 => [
+                'name' => 'Trenér roku',
+                'values' => [
+                    1 => [
+                        'header' => '1. místo',
+                        'description' => '- Vladimír Limburský – SKBU Hostivař',
+                    ],
+                    2 => [
+                        'header' => '2. místo',
+                        'description' => '- David Lachout a Jakub Chabr – HC Hostivař – pozemní hokej',
+                    ],
+                    3 => [
+                        'header' => '3. místo',
+                        'description' => '- Younjae Lee – TAEHAN PRAHA-WORLD TAEKWONDO',
+                    ],
+                ],
+            ],
+        ],
     ];
 
     public static $gallery = [
@@ -542,6 +708,301 @@ class VotesController extends Controller
             '26' => '',
             '27' => '',
             '28' => '',
+        ],
+        2023 => [
+            '01' => '',
+            '02' => '',
+            '03' => '',
+            '04' => '',
+            '05' => '',
+            '06' => '',
+            '07' => '',
+            '08' => '',
+            '09' => '',
+            '10' => '',
+            '11' => '',
+            '12' => '',
+            '13' => '',
+            '14' => '',
+            '15' => '',
+            '16' => '',
+            '17' => '',
+            '18' => '',
+            '19' => '',
+        ],
+        2024 => [
+
+        ],
+    ];
+
+    public static $nominations = [
+        1 => [
+            'name' => 'Sportovní tým nad 18 let',
+            'values' => [
+                1 => [
+                    'header' => 'HC Hostivař - Pozemni hokej',
+                    'description' => '- Play off a nasledne 4. Misto v nejvyssi ceske soutezi',
+                ],
+                2 => [
+                    'header' => 'A Tým - HBC Hostivař',
+                    'description' => '- vicemistři hokejbalové extraligy 2024, 2. místo v Českém poháru 2024',
+                ],
+                3 => [
+                    'header' => 'Kata team muži - SKBU Hostivař, karate',
+                    'description' => '- 2. místo MS světa JKA Japonsko 2024',
+                ],
+                4 => [
+                    'header' => 'TK Horní Měcholupy',
+                    'description' => '- 3. místo v 1. lize ČR smíšených družstev dospělých v tenise',
+                ],
+                5 => [
+                    'header' => 'TK Horní Měcholupy',
+                    'description' => '- 3. Místo v první tenisové lize smíšrných družstev. Vítěz skupinové části první ligy',
+                ],
+                6 => [
+                    'header' => 'Taneční klub Calipso - country tance a clogging',
+                    'description' => '- MČR - 2x 1. místo, Československý country saloon - 3x titul Mistr ČR 1. místo, 3x 2. místo',
+                ],
+                7 => [
+                    'header' => 'Kata team senioři - SKBU Hostivař',
+                    'description' => '- 2. místo MS a 2. místo ME JKA - kata team senioři',
+                ],
+            ],
+        ],
+        2 => [
+            'name' => 'Sportovní tým do 18 let',
+            'values' => [
+                1 => [
+                    'header' => 'Kata team SKBU Hostivař B - starší žákyně',
+                    'description' => '- 3. místo kata team na MČR JKA',
+                ],
+                2 => [
+                    'header' => 'HBC Hostivař starší žáci',
+                    'description' => '- 4. místo v lize starších žáků ČR',
+                ],
+                3 => [
+                    'header' => 'TEAM FEMALE SENIOR UNDER 30 - TAEKWONDO POOMSAE (Lee, Bulíčková, Baštecká) - člen Českého národního týmu',
+                    'description' => '- Nominace na MS 2024 v Hongkongu, 17. místo. Mezin. turnaje třídy G: např. Croatia Open 2024 - 1. místo, MČR 1. místo, vítězný tým Extraligy 2024.',
+                ],
+                4 => [
+                    'header' => 'Pop Balet, z.s. - Tanec',
+                    'description' => '- Regionální kolo extraligy v kategorii Contemporary soutěže CDO',
+                ],
+                5 => [
+                    'header' => 'Společná skladba v MG, naděje nejmladší - TJ ZŠ Hostivař Praha,moderní gymnastika',
+                    'description' => '- Dívky ve společné skladbě vybojovaly 2.místo na MČR 2024 (i 2023) ve společných skladbách v moderní gymnastice, naděje nejmladší',
+                ],
+                6 => [
+                    'header' => 'Kata team staší žákyně B - SKBU Hostivař, karate',
+                    'description' => '- 3. místo kata team na MČR JKA',
+                ],
+                7 => [
+                    'header' => 'TK Horní Měcholupy',
+                    'description' => '- 5. místo v nejvyšší pražské tenisové soutěži',
+                ],
+                8 => [
+                    'header' => 'TK Horní Měcholupy',
+                    'description' => '- 5. Místo v nejvyšší pražské tenisové soutěži smýšených družstev',
+                ],
+                9 => [
+                    'header' => 'Juniorský tým Erika Bubeníčková, Sofie Kozina - SK Triumf Praha, moderní gymnastika',
+                    'description' => '- 3.místo MČR Plzeň, Přebornice města Prahy, 1.místo Veselský pohár, 1.místo Vinohradský pohár, 1.místo Pohár Královny Elišky, 1.místo Cena Chomutova',
+                ],
+                10 => [
+                    'header' => 'Taneční klub Calipso - country tance a clogging',
+                    'description' => '- MČR -  4x 2. místo Československý country saloon - 1x titul Mistr ČR 1. místo',
+                ],
+                11 => [
+                    'header' => 'TÝM MLADŠÍ ŽÁCI - HOCKEY CLUB HOSTIVAŘ - pozemní hokej',
+                    'description' => '- 2x MISTŘI ČR = 1. místo - Mistrovství ČR - POZEMNÍ HOKEJ 2023-2024 //  1. místo - Mistrovství ČR - HALOVÝ POZEMNÍ HOKEJ 2023-2024',
+                ],
+            ],
+        ],
+        3 => [
+            'name' => 'Jednotlivec nad 18 let',
+            'values' => [
+                1 => [
+                    'header' => 'Vojtech Papírek - Pozemni hokej',
+                    'description' => '- 3. místo na mistrovství evropy do 21 let, 4. místo v mužské extralize',
+                ],
+                2 => [
+                    'header' => 'Andrea Mrštíková - Běh',
+                    'description' => '- Všechny sportovní úspěchy jsou nejlepší. Největší úspěch, ale je, že nikdy na běžeckých závodech nebyla poslední. Dělá to pro radost a vždy na 1.',
+                ],
+                3 => [
+                    'header' => 'Jan Čejka - HBC Hostivař',
+                    'description' => '- nejlepší hokejbalista ČR, NEJPRODUKTIVNĚJŠÍ hráč extraligy 2024, nejlepší střelec a útočník MS v hokejbale 2024, kde Česko získalo stříbrné medaile',
+                ],
+                4 => [
+                    'header' => 'Sára Štěpánová - Penta gym Praha, Brazilské jiu-jitsu',
+                    'description' => '- amatérská mistryně světa ADCC z Varšavy, třetí na mistrovství Evropy IBJJF v Římě, třetí na mistrovství Evropy SOLT ve Varšavě',
+                ],
+                5 => [
+                    'header' => 'Hana Lee - TAEHAN PRAHA - WORLD TAEKWONDO',
+                    'description' => '- Mistryně České republiky, vítězka Extraligy taekwondo poomsae pro rok 2024, členka Českého národního reprezentačního týmu.',
+                ],
+                6 => [
+                    'header' => 'Veronika Kripnerová - TJ Pankrác, Sálová cyklistika - kolová a krasojízda',
+                    'description' => '- 3. místo Mistrovství světa v kolové - kategorie žen, 3. místo - MČR krasojízda jednotlivkyně ženy, 1.místo Mistrovství Prahy - jednotlivkyně a dvojice',
+                ],
+                7 => [
+                    'header' => 'Marek Gengel - TK Horní Měcholupy',
+                    'description' => '- Vítěz 9 ATP turnajů. Postup na tenisovém žebříčku na pozici 257 ATP',
+                ],
+                8 => [
+                    'header' => 'Jan Semrád - Taneční klub Calipso',
+                    'description' => '- MČR - 4x Mistr ČR 1. místo v kategoriích: clogging sólo, clogging acapella, clogging freestyle, clogging duet',
+                ],
+                9 => [
+                    'header' => 'Magdalena Anne Žůček - SKBU Hostivař',
+                    'description' => '- 1. místo ME karate JKA - kumite seniorky, 1. místo MČR JKA -kumite seniorky, 5. místo MS JKA-kumite seniorky, 3. místo ME JKA -kumite team seniorky,3. místo MS JKA -kumite team seniorky',
+                ],
+                10 => [
+                    'header' => 'Daniel Beneš - SKBU Hostivař',
+                    'description' => '- 1. místo ME JKA - kata  senioři, 2. místo MS JKA - kata team senioři, 2. místo MČR JKA -kata senioři',
+                ],
+
+            ],
+        ],
+/*
+Stella	Kociánová	2014	SKBU Praha Hostivař	2x bronzová medaile na mistrovství republiky
+David	Vokřál	2011	SkASC, plavání	Účastník MČR, 3x přeborník kraje Praha, 4x druhé a 3x třetí misto
+Stella	Kocianová	2014	SKBU Hostivař - karate	3. místo kumite jednotlivci na MČR JKA; 3. místo kata team na MČR JKA; 2. místo Liga JKA
+Anton Igorovič	Kňazev	2007	Pozemní hokej	Nejlepsi strelec rezervy Hostivaře, Boss gangu východoevropske mladeze
+Lucie	Maredová	2010	Atletika Jižní město	Přebornice Prahy ve skoku vysokém, Mistrovství České republiky: 10. místo skok vysoký (160cm)., 12. místo 3km závodní chůze
+Petr 	Lehner	2005	HBC Hostivař	kapitán repre do 18 let, 2. nejproduktivnější junior extraligy 2024 a mládežník roku 2024
+Irena	Lee	2010	TAEHAN PRAHA - WORLD TAEKWONDO	5. místo - Mistrovství světa 2024, Croatia Open - 3. místo, Belgian Open - 2. místo, Mistryně ČR, vítězka Extraligy taekwondo poomsae pro rok 2024
+Valerie	Fotevová	2008	TJ ZŠ Hostivař, moderní gymnastika	Start na Mistrovství Evropy seniorek, reprezentantka ČR
+Stella	Kocianová	2014	SKBU Hostivař - karate	3. místo kumite jednotlivci na MČR JKA; 3. místo kata team na MČR JKA; 2. místo Liga JKA; 2x 1. místo kata, kumite vánoční turnaj JKA;
+Adam	Duda	2008	TK Horní Měcholupy	finalista dvou celosvětových tenisových turnajů ITF, vítěz čtyřhry celosvětových tenisových turnajů ITF, vítěz Tennis Europe
+Adam	Duda	2008	TK Horní Měcholupy	Finalista dvou celosvětových tenisových turnajů ITF do 18 let.Vítěz čtyřhry celosvětového turnaje ITF do 18 let.Vítěz evropského tenisového turnajeU16
+Olivie	Hyblerová	2013	SK Triumf Praha, moderní gymnastika	Mistryně ČR naděje mladší Plzeň, Přebornice Prahy 2024, 1.místo Pohár Královny Elišky, 2.místo Mini Golden Cup Slovensko, 2.místo Cena města Chomutova
+Tereza	Kovalová	2008	Taneční klub Calipso	MČR - Mistr ČR  1. místo - clogging duet, 3. místo clogging solo, 2. místo acapella clogging
+Šimon	Hrdina	05.06.2012	HOCKEY CLUB HOSTIVAŘ - pozemní hokej	Nejlepší střelec dvojitého mistrovského týmu ČR - HOCKEY CLUBU HOSTIVAŘ v sezóně 2023/2024 -  pozemní hokej na trávě i v hale
+Lenka 	Hurníková	2006	SKBU Hostivař 	1. místo MČR JKA - kumite juniorky, 2. místo MČR JKA -kumite dorostenky, 5. místo MS JKA-kumite juniorky, 1. místo Velká cena Kadaně - kumite st. dorostenky
+Jiří 	Mikula	2006	SKBU Hostivař 	MS JKA - kumite junioři 16-18 let
+Anežka	Martinová	2014	Jižní Supi/basketbal	Nejlepší střelkyně U11, nejlepší hráčka týmu na turnaji Plyšákov, vítězství v plaveckých závodech v rámci ZŠ, Vítěz Petrovický běh
+*/
+        4 => [
+            'name' => 'Jednotlivec do 18 let',
+            'values' => [
+                2 => [
+                    'header' => 'David Vokřál - SkASC, plavání',
+                    'description' => '- Účastník MČR, 3x přeborník kraje Praha, 4x druhé a 3x třetí misto',
+                ],
+                3 => [
+                    'header' => 'Stella Kocianová - SKBU Hostivař - karate',
+                    'description' => '- 3. místo kumite jednotlivci na MČR JKA; 3. místo kata team na MČR JKA; 2. místo Liga JKA',
+                ],
+                4 => [
+                    'header' => 'Anton Igorovič Kňazev - Pozemní hokej',
+                    'description' => '- Nejlepsi strelec rezervy Hostivaře, Boss gangu východoevropske mladeze',
+                ],
+                5 => [
+                    'header' => 'Lucie Maredová - Atletika Jižní město',
+                    'description' => '- Přebornice Prahy ve skoku vysokém, Mistrovství České republiky: 10. místo skok vysoký (160cm)., 12. místo 3km závodní chůze',
+                ],
+                6 => [
+                    'header' => 'Petr  Lehner - HBC Hostivař',
+                    'description' => '- kapitán repre do 18 let, 2. nejproduktivnější junior extraligy 2024 a mládežník roku 2024',
+                ],
+                7 => [
+                    'header' => 'Irena Lee - TAEHAN PRAHA - WORLD TAEKWONDO',
+                    'description' => '- 5. místo - Mistrovství světa 2024, Croatia Open - 3. místo, Belgian Open - 2. místo, Mistryně ČR, vítězka Extraligy taekwondo poomsae pro rok 2024',
+                ],
+                8 => [
+                    'header' => 'Valerie Fotevová - TJ ZŠ Hostivař, moderní gymnastika',
+                    'description' => '- Start na Mistrovství Evropy seniorek, reprezentantka ČR',
+                ],
+                11 => [
+                    'header' => 'Adam Duda - TK Horní Měcholupy',
+                    'description' => '- Finalista dvou celosvětových tenisových turnajů ITF do 18 let.Vítěz čtyřhry celosvětového turnaje ITF do 18 let.Vítěz evropského tenisového turnajeU16',
+                ],
+                12 => [
+                    'header' => 'Olivie Hyblerová - SK Triumf Praha, moderní gymnastika',
+                    'description' => '- Mistryně ČR naděje mladší Plzeň, Přebornice Prahy 2024, 1.místo Pohár Královny Elišky, 2.místo Mini Golden Cup Slovensko, 2.místo Cena města Chomutova',
+                ],
+                13 => [
+                    'header' => 'Tereza Kovalová - Taneční klub Calipso',
+                    'description' => '- MČR - Mistr ČR 1. místo - clogging duet, 3. místo clogging solo, 2. místo acapella clogging',
+                ],
+                14 => [
+                    'header' => 'Šimon Hrdina - HOCKEY CLUB HOSTIVAŘ - pozemní hokej',
+                    'description' => '- Nejlepší střelec dvojitého mistrovského týmu ČR - HOCKEY CLUBU HOSTIVAŘ v sezóně 2023/2024 - pozemní hokej na trávě i v hale',
+                ],
+                15 => [
+                    'header' => 'Lenka  Hurníková - SKBU Hostivař',
+                    'description' => '- 1. místo MČR JKA - kumite juniorky, 2. místo MČR JKA -kumite dorostenky, 5. místo MS JKA-kumite juniorky, 1. místo Velká cena Kadaně - kumite st. dorostenky',
+                ],
+                16 => [
+                    'header' => 'Jiří  Mikula - SKBU Hostivař',
+                    'description' => '- MS JKA - kumite junioři 16-18 let',
+                ],
+                17 => [
+                    'header' => 'Anežka Martinová - Jižní Supi/basketbal',
+                    'description' => '- Nejlepší střelkyně U11, nejlepší hráčka týmu na turnaji Plyšákov, vítězství v plaveckých závodech v rámci ZŠ, Vítěz Petrovický běh',
+                ],
+            ],
+        ],
+/*
+Vladimír	Limburský	SKBU Hostivař - karate	MČR JKA; Liga JKA
+Lukáš	Lahoda	Pozemní hokej	4. Misto v extralize
+Jan 	Krtička	HBC Hostivař	hlavní trenér úspěšného A týmu a nejlepší trenér extraligy pro rok 2024
+Younjae	Lee	TAEHAN PRAHA - WORLD TAEKWONDO	1 svěřenec - 5. místo na světě, 6 svěřenců - mistři republiky, 5 svěřenců - vítězové Extraligy 2024, 6 svěřenců Národní liga 2024, trenér nár. týmu ČR
+Patrície	Karasová	Pop Balet, z.s.	Regionální kolo extraligy v kategorii Contemporary soutěže CDO
+Jan	Kripner	TJ Pankrác, SC Svitávka - Sálová cyklistika - kolová a krasojízda	3. místo ženského reprezentačního týmu na Mistrovství světa v kolové
+Jitka	Hartmannová	TJ ZŠ Hostivař, moderní gymnastika	2.místo na MČR ve spol.skladbách, Fotevová 4.místo na MČR seniorek, účast na ME
+Vladimír	Limburský	SKBU Hostivař - karate	MČR JKA; Liga JKA
+Tomáš	Hrouda	TK Horní Měcholupy	hlavní trenér tenisové školy TK Horní Měcholupy, jeho svěřenci pravidelně dosahují úspěchů nejen v českých turnajích, ale i v mezinárodních utkáních
+Tomáš	Hrouda	TK Horní Měcholupy	Hlavní trenér tenisové školy TK Horní Měcholupy, jeho svěřenci dosahují velkolepých úspěchů na českých turnajích
+Jakub	Žák	country tance, clogging	MČR - 2x 1. místo, 4x 2. místo, Československý country saloon - 4x titul Mistr ČR 1. místo, 3x 2. místo
+DAVID LACHOUT	JAKUB CHABR	HOCKEY CLUB HOSTIVAŘ - pozemní hokej	DAVID LACHOUT, JAKUB CHABR - trenéři dvojitého mistrovského týmu ČR - 2023/24 // 1. místo ČR - pozemní hokej // 1. místo ČR - halový pozemní hokej
+Vladimír 	Limburský 	SKBU Hostivař 	trenér žákovských kategorií
+*/
+        5 => [
+            'name' => 'Trenér roku',
+            'values' => [
+                1 => [
+                    'header' => 'Vladimír Limburský - SKBU Hostivař - karate',
+                    'description' => '- karate MČR JKA; Liga JKA',
+                ],
+                2 => [
+                    'header' => 'Lukáš Lahoda - Pozemní hokej',
+                    'description' => '- 4. Misto v extralize',
+                ],
+                3 => [
+                    'header' => 'Jan  Krtička - HBC Hostivař',
+                    'description' => '- hlavní trenér úspěšného A týmu a nejlepší trenér extraligy pro rok 2024',
+                ],
+                4 => [
+                    'header' => 'Younjae Lee - TAEHAN PRAHA - WORLD TAEKWONDO',
+                    'description' => '- 1 svěřenec - 5. místo na světě, 6 svěřenců - mistři republiky, 5 svěřenců - vítězové Extraligy 2024, 6 svěřenců Národní liga 2024, trenér nár. týmu ČR',
+                ],
+                5 => [
+                    'header' => 'Patrície Karasová - Pop Balet, z.s.',
+                    'description' => '- Regionální kolo extraligy v kategorii Contemporary soutěže CDO',
+                ],
+                6 => [
+                    'header' => 'Jan Kripner - TJ Pankrác, SC Svitávka - Sálová cyklistika - kolová a krasojízda',
+                    'description' => '- 3. místo ženského reprezentačního týmu na Mistrovství světa v kolové',
+                ],
+                7 => [
+                    'header' => 'Jitka Hartmannová - TJ ZŠ Hostivař, moderní gymnastika',
+                    'description' => '- 2.místo na MČR ve spol.skladbách, Fotevová 4.místo na MČR seniorek, účast na ME',
+                ],
+                8 => [
+                    'header' => 'Tomáš Hrouda - TK Horní Měcholupy',
+                    'description' => '- hlavní trenér tenisové školy TK Horní Měcholupy, jeho svěřenci pravidelně dosahují úspěchů nejen v českých turnajích, ale i v mezinárodních utkáních',
+                ],
+                9 => [
+                    'header' => 'Jakub Žák - country tance, clogging',
+                    'description' => '- MČR - 2x 1. místo, 4x 2. místo, Československý country saloon - 4x titul Mistr ČR 1. místo, 3x 2. místo',
+                ],
+                10 => [
+                    'header' => 'David Lachout, Jakub Chabr - HOCKEY CLUB HOSTIVAŘ - pozemní hokej',
+                    'description' => '- trenéři dvojitého mistrovského týmu ČR - 2023/24 // 1. místo ČR - pozemní hokej // 1. místo ČR - halový pozemní hokej',
+                ],
+            ],
         ],
     ];
 
@@ -670,11 +1131,12 @@ class VotesController extends Controller
     }
 
     public function results() {
-        $year = 2022;
+        $year = 2024;
         $groups = self::$results[$year];
         $gallery = self::$gallery[$year];
+        $nominations = self::$nominations;
         $archive = true;
-        return view('results', compact(['groups', 'gallery', 'archive', 'year']));
+        return view('results', compact(['groups', 'gallery', 'archive', 'year', 'nominations']));
     }
 
     public function archive($year) {

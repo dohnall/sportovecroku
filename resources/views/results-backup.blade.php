@@ -3,35 +3,9 @@
 @section('content')
 <section class="header results">
     <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
-    <h1>Nominace</h1>
+    <h1><img src="/images/text_vysledky.svg" alt="Výsledky hlasování" class="img-fluid" width="511"></h1>
     <p>
-        Veřejnost měla možnost nominovat sportovce na těchto stránkách do 31. 12. 2024.<br>
-        Následně v lednu proběhla kontrola obdržených nominací.
-    </p>
-    <p>&nbsp;</p>
-    <p>A zde jsou výsledky nominací v jednotlivých kategoriích:</p>
-</section>
-@foreach($nominations as $groupId => $group)
-    <section class="group group{{ $groupId }} results clearfix">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>{{ $group['name'] }}</h2>
-            </div>
-        </div>
-        <ul>
-            @foreach($group['values'] as $valueId => $value)
-                <li>
-                    <p><strong>{{ $value['header'] }}</strong> {!! $value['description'] !!}</p>
-                </li>
-            @endforeach
-        </ul>
-    </section>
-@endforeach
-<section class="header results">
-    <h1>Hlasování</h1>
-    <p>
-        Na jednání Výboru volnočasových aktivit dne 15. 1. 2025 proběhlo hlasování členů Výboru,<br>
-        na jehož základě byli vybráni vítězové v jednotlivých kategoriích:
+        V <strong>lednu 2025</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
     </p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -52,12 +26,8 @@
         </ul>
     </section>
 @endforeach
-<section class="header results pt-2 pb-5">
-    <h1>Vyhlášení vítězů</h1>
-    <p>
-        Vyhlášení a předání cen proběhne 12. 2. 2025 od 17 hodin ve Švehlově sokolovně.
-    </p>
-    <p class="message text-center mb-5 pb-5"><strong>Děkujeme všem nominovaným sportovcům a srdečně gratulujeme vítězům.<br>Těšíme se na další ročník.</strong></p>
+<section class="header pt-2 pb-5">
+    <p class="message text-center mb-5 pb-5"><strong>Děkujeme všem hlasujícím a nominovaným sportovcům a srdečně gratulujeme vítězům.<br>Těšíme se na další ročník.</strong></p>
     @if($gallery)
     <h2><img src="/images/text_fotogalerie.svg" alt="Fotogalerie předávání cen" class="img-fluid" width="528"></h2>
     @else

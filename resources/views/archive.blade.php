@@ -28,6 +28,11 @@
         <p style="margin-bottom: 150px;">
             V <strong>květnu 2023</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
         </p>
+    @elseif($year == 2023)
+        <h1><img src="/images/nadpis_vysledky_2023.svg" style="max-width:806px;" alt="Výsledky hlasování 2023" class="img-fluid"></h1>
+        <p style="margin-bottom: 150px;">
+            V <strong>květnu 2024</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
+        </p>
     @endif
 </section>
 @foreach($groups as $groupId => $group)

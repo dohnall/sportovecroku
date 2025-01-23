@@ -9,7 +9,7 @@
         <p>
             Městská část Praha 15, Výbor volnočasových aktivit a vnějších vztahů,<br>
             vyhlásila anketu Sportovec roku MČ Praha 15.<br>
-            Nominace bude ukončena 31. 12. 2023.
+            Nominace bude ukončena 31. 12. 2024.
         </p>
         <p>
             Nominovaný musí být z MČ Praha 15 nebo být členem klubu<br>
@@ -39,7 +39,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="success1" @error('success.1') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2023:</label>
+                <label for="success1" @error('success.1') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2024:</label>
                 <input type="text" maxlength="150" name="success[1]" id="success1" value="{{ old('success.1') }}" class="form-control @error('success.1') is-invalid @enderror">
             </div>
         </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="success2" @error('success.2') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2023:</label>
+                <label for="success2" @error('success.2') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2024:</label>
                 <input type="text" maxlength="150" name="success[2]" id="success2" value="{{ old('success.2') }}" class="form-control @error('success.2') is-invalid @enderror">
             </div>
         </div>
@@ -105,7 +105,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="success3" @error('success.3') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2023:</label>
+                <label for="success3" @error('success.3') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2024:</label>
                 <input type="text" maxlength="150" name="success[3]" id="success3" value="{{ old('success.3') }}" class="form-control @error('success.3') is-invalid @enderror">
             </div>
         </div>
@@ -143,7 +143,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="success4" @error('success.4') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2023:</label>
+                <label for="success4" @error('success.4') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2024:</label>
                 <input type="text" maxlength="150" name="success[4]" id="success4" value="{{ old('success.4') }}" class="form-control @error('success.4') is-invalid @enderror">
             </div>
         </div>
@@ -181,7 +181,7 @@
         </div>
         <div class="row form">
             <div class="col-md-8">
-                <label for="success5" @error('success.5') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2023:</label>
+                <label for="success5" @error('success.5') class="red" @enderror>Uveďte dosažené sportovní úspěchy nominovaného za rok 2024:</label>
                 <input type="text" maxlength="150" name="success[5]" id="success5" value="{{ old('success.5') }}" class="form-control @error('success.5') is-invalid @enderror">
             </div>
         </div>
@@ -234,7 +234,7 @@
             <p class="red">Zapomněli jste nominovat. V případě potřeby zaškrtněte políčko "v této kategorii nenominuji".</p>
         @endif
         @if(session('message') == 'thanks')
-            <p class="message text-center"><strong>Děkujeme za nominaci v anketě Sportovec roku 2023.</strong></p>
+            <p class="message text-center"><strong>Děkujeme za nominaci v anketě Sportovec roku 2024.</strong></p>
         @endif
         <script>
             // Example starter JavaScript for disabling form submissions if there are invalid fields

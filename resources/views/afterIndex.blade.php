@@ -21,7 +21,7 @@
         </p>
         <p class="third">
             <strong>Švehlova sokolovna</strong><br>
-            U Branek 674/7, Praha 15 – Hostivar
+            U Branek 674/7, Praha 15 – Hostivař
         </p>
     </div>
 </section>

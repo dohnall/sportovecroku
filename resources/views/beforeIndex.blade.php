@@ -5,7 +5,7 @@
         <div class="logo"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
         <p>
             <strong>Právě probíhá zpracování nominací.</strong><br>
-            Hlasovat budete moci online na tomto webu<br>v průběhu ledna 2024, v kategoriích:
+            Hlasování bude probíhat v průběhu ledna 2025, v kategoriích:
         </p>
         <ul class="red bold">
             <li>&bullet; Sportovní tým nad 18 let</li>

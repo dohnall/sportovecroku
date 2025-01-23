@@ -5,7 +5,7 @@
     @csrf
     <section class="header">
         <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
-        <h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
+        <!--h1><img src="/images/text_hlasujte.svg" alt="HLASUJTE!" class="img-fluid"></h1>
         <p>
             Právě probíhá hlasovací část ankety Sportovec roku MČ Praha 15,<br>
             hlasovat lze od <strong>15. ledna do 29. února 2024</strong><br>
@@ -13,7 +13,22 @@
         </p>
         <p>
             Pravidla hlasování naleznete <a href="/files/pravidla.pdf" target="_blank">zde</a>.
-        </p>
+        </p-->
+        <div class="invitation">
+            <p class="first">
+                Srdečně vás zveme<br>
+                na vyhlášení výsledků ankety<br>
+                <strong>Sportovec roku 2023 MČ Praha 15</strong>
+            </p>
+            <p class="second">
+                20. 5. 2024<br>
+                <strong>od 17.00 do 19.00</strong>
+            </p>
+            <p class="third">
+                <strong>Švehlova sokolovna</strong><br>
+                U Branek 674/7, Praha 15 – Hostivař
+            </p>
+        </div>
     </section>
 @foreach($groups as $groupId => $group)
     <section class="group group{{ $groupId }} clearfix">
@@ -21,26 +36,26 @@
             <div class="col-md-8">
                 <h2>{{ $group['name'] }}</h2>
             </div>
-            <div class="col-md-4 text-right radio @if(old('group.'.$groupId) === "0") selected @endif">
+            <!--div class="col-md-4 text-right radio @if(old('group.'.$groupId) === "0") selected @endif">
                 <label class="" for="group_{{ $groupId }}_0">pro tuto kategorii nehlasuji</label>
                 <input type="radio" id="group_{{ $groupId }}_0" name="group[{{ $groupId }}]" value="0" class="form-check-inline" @if(old('group.'.$groupId) === "0") checked @endif>
                 <div></div>
-            </div>
+            </div-->
         </div>
         <ul>
     @foreach($group['values'] as $valueId => $value)
             <li @if(old('group.'.$groupId) == $valueId) class="selected" @endif>
-                <div class="radio">
+                <!--div class="radio">
                     <div></div>
                     <input type="radio" name="group[{{ $groupId }}]" value="{{ $valueId }}" @if(old('group.'.$groupId) == $valueId) checked @endif>
-                </div>
+                </div-->
                 <p><strong>{{ $value['header'] }}</strong> {!! $value['description'] !!}</p>
             </li>
     @endforeach
         </ul>
     </section>
 @endforeach
-    <section class="form">
+    <!--section class="form">
         <h2>Odesílací formulář</h2>
         <div class="form-row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
@@ -87,7 +102,7 @@
                     </label>
                 </div>
             </div>
-        </div>
+        </div-->
         @if($errors->has('group.1') || $errors->has('group.2') || $errors->has('group.3') || $errors->has('group.4') || $errors->has('group.5') || $errors->has('group.6'))
         <p class="red">Zapomněli jste hlasovat. V případě potřeby zaškrtněte políčko "pro tuto kategorii nehlasuji".</p>
         @endif
