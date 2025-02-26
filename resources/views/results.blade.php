@@ -53,9 +53,9 @@
     </section>
 @endforeach
 <section class="header results pt-2 pb-5">
-    <h1>Vyhlášení vítězů</h1>
+    <h1>Slavnostní vyhlášení</h1>
     <p>
-        Vyhlášení a předání cen proběhne 12. 2. 2025 od 17 hodin ve Švehlově sokolovně.
+        Vyhlášení a předání cen proběhlo 12. 2. 2025 od 17 hodin ve Švehlově sokolovně.
     </p>
     <p class="message text-center mb-5 pb-5"><strong>Děkujeme všem nominovaným sportovcům a srdečně gratulujeme vítězům.<br>Těšíme se na další ročník.</strong></p>
     @if($gallery)
@@ -75,6 +75,7 @@
 @endforeach
     </div>
     <p class="mt-4 text-center"><a href="#" id="showGallery">Více fotografií najdete zde v galerii nebo po kliknutí na jakoukoli fotografii.</a></p>
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/vwP2o_oQ-6o?si=1Njq-pn-CQ7Sxp1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 </section>
 @endif
 @endsection

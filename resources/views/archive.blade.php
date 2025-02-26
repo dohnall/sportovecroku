@@ -33,6 +33,11 @@
         <p style="margin-bottom: 150px;">
             V <strong>květnu 2024</strong> byly v rámci jednání Výboru volnočasových aktivit a vnějších vztahů předány trofeje vítězům v kategoriích:
         </p>
+    @elseif($year == 2024)
+        <h1><img src="/images/nadpis_vysledky_2024.svg" style="max-width:806px;" alt="Výsledky hlasování 2024" class="img-fluid"></h1>
+        <p style="margin-bottom: 150px;">
+            Na jednání Výboru volnočasových aktivit dne 15. 1. 2025 proběhlo hlasování členů Výboru,<br>na jehož základě byli vybráni vítězové v jednotlivých kategoriích:
+        </p>
     @endif
 </section>
 @foreach($groups as $groupId => $group)
@@ -70,6 +75,7 @@
 @endforeach
     </div>
     <p class="mt-4 text-center"><a href="#" id="showGallery">Více fotografií najdete zde v galerii nebo po kliknutí na jakoukoli fotografii.</a></p>
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/vwP2o_oQ-6o?si=1Njq-pn-CQ7Sxp1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 </section>
 @endif
 @endsection

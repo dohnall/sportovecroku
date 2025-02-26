@@ -36,4 +36,4 @@ Route::group(['middleware' => ['web']], function () {
 */
 Route::get('/', 'VotesController@results');
 
-Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019|2020|2021|2022|2023)');
+Route::get('/archive/{year}', 'VotesController@archive')->where('year', '(2019|2020|2021|2022|2023|2024)');

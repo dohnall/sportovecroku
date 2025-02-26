@@ -731,7 +731,19 @@ class VotesController extends Controller
             '19' => '',
         ],
         2024 => [
-
+            '01' => '',
+            '02' => '',
+            '03' => '',
+            '04' => '',
+            '05' => '',
+            '06' => '',
+            '07' => '',
+            '08' => '',
+            '09' => '',
+            '10' => '',
+            '11' => '',
+            '12' => '',
+            '13' => '',
         ],
     ];
 
@@ -757,7 +769,7 @@ class VotesController extends Controller
                 ],
                 5 => [
                     'header' => 'TK Horní Měcholupy',
-                    'description' => '- 3. Místo v první tenisové lize smíšrných družstev. Vítěz skupinové části první ligy',
+                    'description' => '- 3. Místo v první tenisové lize smíšených družstev. Vítěz skupinové části první ligy',
                 ],
                 6 => [
                     'header' => 'Taneční klub Calipso - country tance a clogging',
@@ -802,7 +814,7 @@ class VotesController extends Controller
                 ],
                 8 => [
                     'header' => 'TK Horní Měcholupy',
-                    'description' => '- 5. Místo v nejvyšší pražské tenisové soutěži smýšených družstev',
+                    'description' => '- 5. Místo v nejvyšší pražské tenisové soutěži smíšených družstev',
                 ],
                 9 => [
                     'header' => 'Juniorský tým Erika Bubeníčková, Sofie Kozina - SK Triumf Praha, moderní gymnastika',
@@ -864,25 +876,6 @@ class VotesController extends Controller
 
             ],
         ],
-/*
-Stella	Kociánová	2014	SKBU Praha Hostivař	2x bronzová medaile na mistrovství republiky
-David	Vokřál	2011	SkASC, plavání	Účastník MČR, 3x přeborník kraje Praha, 4x druhé a 3x třetí misto
-Stella	Kocianová	2014	SKBU Hostivař - karate	3. místo kumite jednotlivci na MČR JKA; 3. místo kata team na MČR JKA; 2. místo Liga JKA
-Anton Igorovič	Kňazev	2007	Pozemní hokej	Nejlepsi strelec rezervy Hostivaře, Boss gangu východoevropske mladeze
-Lucie	Maredová	2010	Atletika Jižní město	Přebornice Prahy ve skoku vysokém, Mistrovství České republiky: 10. místo skok vysoký (160cm)., 12. místo 3km závodní chůze
-Petr 	Lehner	2005	HBC Hostivař	kapitán repre do 18 let, 2. nejproduktivnější junior extraligy 2024 a mládežník roku 2024
-Irena	Lee	2010	TAEHAN PRAHA - WORLD TAEKWONDO	5. místo - Mistrovství světa 2024, Croatia Open - 3. místo, Belgian Open - 2. místo, Mistryně ČR, vítězka Extraligy taekwondo poomsae pro rok 2024
-Valerie	Fotevová	2008	TJ ZŠ Hostivař, moderní gymnastika	Start na Mistrovství Evropy seniorek, reprezentantka ČR
-Stella	Kocianová	2014	SKBU Hostivař - karate	3. místo kumite jednotlivci na MČR JKA; 3. místo kata team na MČR JKA; 2. místo Liga JKA; 2x 1. místo kata, kumite vánoční turnaj JKA;
-Adam	Duda	2008	TK Horní Měcholupy	finalista dvou celosvětových tenisových turnajů ITF, vítěz čtyřhry celosvětových tenisových turnajů ITF, vítěz Tennis Europe
-Adam	Duda	2008	TK Horní Měcholupy	Finalista dvou celosvětových tenisových turnajů ITF do 18 let.Vítěz čtyřhry celosvětového turnaje ITF do 18 let.Vítěz evropského tenisového turnajeU16
-Olivie	Hyblerová	2013	SK Triumf Praha, moderní gymnastika	Mistryně ČR naděje mladší Plzeň, Přebornice Prahy 2024, 1.místo Pohár Královny Elišky, 2.místo Mini Golden Cup Slovensko, 2.místo Cena města Chomutova
-Tereza	Kovalová	2008	Taneční klub Calipso	MČR - Mistr ČR  1. místo - clogging duet, 3. místo clogging solo, 2. místo acapella clogging
-Šimon	Hrdina	05.06.2012	HOCKEY CLUB HOSTIVAŘ - pozemní hokej	Nejlepší střelec dvojitého mistrovského týmu ČR - HOCKEY CLUBU HOSTIVAŘ v sezóně 2023/2024 -  pozemní hokej na trávě i v hale
-Lenka 	Hurníková	2006	SKBU Hostivař 	1. místo MČR JKA - kumite juniorky, 2. místo MČR JKA -kumite dorostenky, 5. místo MS JKA-kumite juniorky, 1. místo Velká cena Kadaně - kumite st. dorostenky
-Jiří 	Mikula	2006	SKBU Hostivař 	MS JKA - kumite junioři 16-18 let
-Anežka	Martinová	2014	Jižní Supi/basketbal	Nejlepší střelkyně U11, nejlepší hráčka týmu na turnaji Plyšákov, vítězství v plaveckých závodech v rámci ZŠ, Vítěz Petrovický běh
-*/
         4 => [
             'name' => 'Jednotlivec do 18 let',
             'values' => [
@@ -944,21 +937,6 @@ Anežka	Martinová	2014	Jižní Supi/basketbal	Nejlepší střelkyně U11, nejle
                 ],
             ],
         ],
-/*
-Vladimír	Limburský	SKBU Hostivař - karate	MČR JKA; Liga JKA
-Lukáš	Lahoda	Pozemní hokej	4. Misto v extralize
-Jan 	Krtička	HBC Hostivař	hlavní trenér úspěšného A týmu a nejlepší trenér extraligy pro rok 2024
-Younjae	Lee	TAEHAN PRAHA - WORLD TAEKWONDO	1 svěřenec - 5. místo na světě, 6 svěřenců - mistři republiky, 5 svěřenců - vítězové Extraligy 2024, 6 svěřenců Národní liga 2024, trenér nár. týmu ČR
-Patrície	Karasová	Pop Balet, z.s.	Regionální kolo extraligy v kategorii Contemporary soutěže CDO
-Jan	Kripner	TJ Pankrác, SC Svitávka - Sálová cyklistika - kolová a krasojízda	3. místo ženského reprezentačního týmu na Mistrovství světa v kolové
-Jitka	Hartmannová	TJ ZŠ Hostivař, moderní gymnastika	2.místo na MČR ve spol.skladbách, Fotevová 4.místo na MČR seniorek, účast na ME
-Vladimír	Limburský	SKBU Hostivař - karate	MČR JKA; Liga JKA
-Tomáš	Hrouda	TK Horní Měcholupy	hlavní trenér tenisové školy TK Horní Měcholupy, jeho svěřenci pravidelně dosahují úspěchů nejen v českých turnajích, ale i v mezinárodních utkáních
-Tomáš	Hrouda	TK Horní Měcholupy	Hlavní trenér tenisové školy TK Horní Měcholupy, jeho svěřenci dosahují velkolepých úspěchů na českých turnajích
-Jakub	Žák	country tance, clogging	MČR - 2x 1. místo, 4x 2. místo, Československý country saloon - 4x titul Mistr ČR 1. místo, 3x 2. místo
-DAVID LACHOUT	JAKUB CHABR	HOCKEY CLUB HOSTIVAŘ - pozemní hokej	DAVID LACHOUT, JAKUB CHABR - trenéři dvojitého mistrovského týmu ČR - 2023/24 // 1. místo ČR - pozemní hokej // 1. místo ČR - halový pozemní hokej
-Vladimír 	Limburský 	SKBU Hostivař 	trenér žákovských kategorií
-*/
         5 => [
             'name' => 'Trenér roku',
             'values' => [
