@@ -6,6 +6,18 @@ section.header.results h1 {
     margin-bottom: 20px;
 }
 
+section textarea.form-control {
+    background: #fafafa 0 0 no-repeat padding-box;
+    box-shadow: 0 6px 10px #d9d9d9;
+    padding: 15px 20px;
+    height: 100px;
+    width: 90%;
+    border: none;
+    color: #003583;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
 .invitation .first {
     font-size: 54px;
     line-height: 64px;

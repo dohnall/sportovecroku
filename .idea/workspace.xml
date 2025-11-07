@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09ee442-1e64-496e-8342-475105afb064" name="Default Changelist" comment="">
+    <list default="true" id="a09ee442-1e64-496e-8342-475105afb064" name="Default Changelist" comment="latest updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/archive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/archive.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/files/pravidla.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/files/pravidla.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo_sportovec_roku.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/nomination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nomination.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dohnall"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dohnall/sportovecroku.git",
+    "accountId": "4f0356a8-017e-4490-8a4e-dd5c58d08b64"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -178,8 +191,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PS-243.24978.50" />
-        <option value="bundled-php-predefined-a98d8de5180a-fbeb0b58ac0f-com.jetbrains.php.sharedIndexes-PS-243.24978.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.27397.112" />
+        <option value="bundled-php-predefined-a98d8de5180a-b35feea871ed-com.jetbrains.php.sharedIndexes-PS-252.27397.112" />
       </set>
     </attachedChunks>
   </component>
@@ -301,8 +314,18 @@
       <workItem from="1732097626258" duration="285000" />
       <workItem from="1737467642200" duration="583000" />
       <workItem from="1737658750686" duration="4330000" />
-      <workItem from="1740582822297" duration="881000" />
+      <workItem from="1740582822297" duration="979000" />
+      <workItem from="1762550544529" duration="1430000" />
     </task>
+    <task id="LOCAL-00001" summary="latest updates">
+      <option name="closed" value="true" />
+      <created>1740583757434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740583757434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,5 +341,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="latest updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest updates" />
   </component>
 </project>
