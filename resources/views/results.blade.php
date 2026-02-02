@@ -5,7 +5,7 @@
     <div class="logo clearfix"><img src="/images/logo_sportovec_roku.svg" width="425" alt="Logo Sportovec roku MČ Praha 15" class="img-fluid"></div>
     <h1>Nominace</h1>
     <p>
-        Veřejnost měla možnost nominovat sportovce na těchto stránkách do 31. 12. 2024.<br>
+        Veřejnost měla možnost nominovat sportovce na těchto stránkách do 31. 12. 2025.<br>
         Následně v lednu proběhla kontrola obdržených nominací.
     </p>
     <p>&nbsp;</p>
@@ -30,7 +30,7 @@
 <section class="header results">
     <h1>Hlasování</h1>
     <p>
-        Na jednání Výboru volnočasových aktivit dne 15. 1. 2025 proběhlo hlasování členů Výboru,<br>
+        Na jednání Výboru volnočasových aktivit dne 26. 1. 2026 proběhlo hlasování členů Výboru,<br>
         na jehož základě byli vybráni vítězové v jednotlivých kategoriích:
     </p>
     <p>&nbsp;</p>
@@ -55,7 +55,7 @@
 <section class="header results pt-2 pb-5">
     <h1>Slavnostní vyhlášení</h1>
     <p>
-        Vyhlášení a předání cen proběhlo 12. 2. 2025 od 17 hodin ve Švehlově sokolovně.
+        Vyhlášení a předání cen proběhne 10. 3. 2026 od 17 hodin v sále KD na Vartě.
     </p>
     <p class="message text-center mb-5 pb-5"><strong>Děkujeme všem nominovaným sportovcům a srdečně gratulujeme vítězům.<br>Těšíme se na další ročník.</strong></p>
     @if($gallery)
